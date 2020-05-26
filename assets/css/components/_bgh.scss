@@ -1,0 +1,28 @@
+// Background Highlighted
+
+.bgh {
+  @extend .btn-sm;
+}
+
+.bgh-pill {
+  @extend .badge-pill;
+}
+
+// Alternate colors
+@each $color, $value in $theme-colors {
+  .bgh-#{$color} {
+    @include bgh-variant($value);
+  }
+}
+
+a.bgh {
+  text-decoration: none;
+}
+
+span.bgh[role=button] {
+  cursor: pointer;
+}
+
+span.bgh[role=contentinfo] {
+  cursor: help;
+}

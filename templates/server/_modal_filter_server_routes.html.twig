@@ -1,0 +1,93 @@
+<div class="modal fade table-filter" id="modal-filter-server-routes" tabindex="-1" role="dialog"
+     aria-labelledby="filter-server-routes-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="filter-server-routes-label">{{ 'title.filter_server_routes'|trans }}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="{{ 'close'|trans }}">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form class="filter-dt" id="filter-server-routes">
+                <div class="modal-body">
+                    {% if grouped %}
+                        <div class="form-row">
+                            <div class="form-group col-md-8">
+                                <label for="peer-name" class="col-form-label">{{ 'label.peer_name'|trans }}</label>
+                                <input type="text" class="form-control" name="peer-name" id="peer-name">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="peer-asn" class="col-form-label">{{ 'label.peer_asn'|trans }}</label>
+                                <input type="number" class="form-control" name="peer-asn" id="peer-asn">
+                            </div>
+                        </div>
+                    {% endif %}
+
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="neighbor-name" class="col-form-label">{{ 'label.neighbor_name'|trans }}</label>
+                            <input type="text" class="form-control" name="neighbor-name" id="neighbor-name">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="neighbor-asn" class="col-form-label">{{ 'label.neighbor_asn'|trans }}</label>
+                            <input type="number" class="form-control" name="neighbor-asn" id="neighbor-asn">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="network" class="col-form-label">{{ 'label.network'|trans }}</label>
+                            <input type="text" class="form-control" name="network" id="network">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="metric" class="col-form-label">{{ 'label.metric'|trans }}</label>
+                            <input type="number" class="form-control" name="metric" id="metric">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="next-hop" class="col-form-label">{{ 'label.next_hop'|trans }}</label>
+                            <input type="text" class="form-control" name="next-hop" id="next-hop">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="as-path" class="col-form-label">{{ 'label.as_path'|trans }}</label>
+                            <input type="text" class="form-control" name="as-path" id="as-path">
+                        </div>
+                    </div>
+
+                    {% if grouped %}
+                        <div class="form-row">
+                            <div class="form-group col-md-8">
+                                <label for="description" class="col-form-label">{{ 'label.description'|trans }}</label>
+                                <input type="text" class="form-control" name="description" id="description">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="table" class="col-form-label">{{ 'label.table'|trans }}</label>
+                                <input type="text" class="form-control" name="table" id="table">
+                            </div>
+                        </div>
+                    {% endif %}
+
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="select-route-communities">{{ 'label.communities'|trans }}</label>
+                            {{ include('server/_select_routes_communities.html.twig') }}
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="select-route-flag">{{ 'label.flags'|trans }}</label>
+                            {{ include('server/_select_routes_flag.html.twig') }}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="reset" class="btn btn-danger reset">{{ 'reset'|trans }}</button>
+                    <button type="reset" class="btn btn-warning mr-auto clear">{{ 'clear'|trans }}</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">{{ 'close'|trans }}</button>
+                    <button type="submit" class="btn btn-primary">{{ 'submit'|trans }}</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

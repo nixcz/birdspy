@@ -1,0 +1,74 @@
+<div class="modal fade table-filter" id="modal-filter-bfd-sessions" tabindex="-1" role="dialog"
+     aria-labelledby="filter-bfd-sessions-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="filter-bfd-sessions-label">{{ 'title.filter_bfd_sessions'|trans }}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="{{ 'close'|trans }}">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form class="filter-dt" id="filter-bfd-sessions">
+                <div class="modal-body">
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="peer-name" class="col-form-label">{{ 'label.peer_name'|trans }}</label>
+                            <input type="text" class="form-control" name="peer-name" id="peer-name">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="asn" class="col-form-label">{{ 'label.asn'|trans }}</label>
+                            <input type="number" class="form-control" name="asn" id="asn">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="ip-address" class="col-form-label">{{ 'label.ip_address'|trans }}</label>
+                            <input type="text" class="form-control" name="ip-address" id="ip-address">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="table" class="col-form-label">{{ 'label.table'|trans }}</label>
+                            <input type="text" class="form-control" name="table" id="table">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="description" class="col-form-label">{{ 'label.description'|trans }}</label>
+                            <input type="text" class="form-control" name="description" id="description">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="interface" class="col-form-label">{{ 'label.interface'|trans }}</label>
+                            <input type="text" class="form-control" name="interface" id="interface">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="interval" class="col-form-label">{{ 'label.interval'|trans }}</label>
+                            <input type="number" class="form-control" name="interval" id="interval">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="timeout" class="col-form-label">{{ 'label.timeout'|trans }}</label>
+                            <input type="number" class="form-control" name="timeout" id="timeout">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="select-bfd-state">{{ 'label.bfd_state'|trans }}</label>
+                            {{ include('server/_select_bfd_state.html.twig') }}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="reset" class="btn btn-danger reset">{{ 'reset'|trans }}</button>
+                    <button type="reset" class="btn btn-warning mr-auto clear">{{ 'clear'|trans }}</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">{{ 'close'|trans }}</button>
+                    <button type="submit" class="btn btn-primary">{{ 'submit'|trans }}</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

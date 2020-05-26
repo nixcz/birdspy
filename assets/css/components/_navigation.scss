@@ -1,0 +1,46 @@
+// Navigation
+
+.navigation-wrapper {
+  @extend .bg-white;
+  @extend .border-bottom;
+  @extend .shadow-sm;
+}
+
+.navigation {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .flex-lg-row;
+  @extend .align-items-center;
+
+  a.navbar-brand {
+    @extend .my-0;
+    @extend .py-0;
+    @extend .mr-lg-auto;
+  }
+
+  nav.main {
+    @extend .my-1;
+    //@extend .my-sm-1;
+
+    a {
+      &.active,
+      &:hover {
+        @extend .border-bottom;
+      }
+    }
+  }
+
+  nav.main > {
+    a {
+      @extend .p-2;
+      @extend .text-dark;
+      text-decoration: none;
+    }
+  }
+
+  // Screen sizes smaller than the medium breakpoint
+  @include media-breakpoint-down(md) {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+}

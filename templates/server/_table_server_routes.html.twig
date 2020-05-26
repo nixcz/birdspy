@@ -1,0 +1,49 @@
+<table id="routes"
+       class="table-dt"
+       data-url="{{ data_url }}"
+       data-server="{{ server_id }}"
+       data-grouped="{{ grouped }}"
+       data-just-invalid="{{ just_invalid }}"
+       cellspacing="0"
+       width="100%">
+    <thead>
+    <tr>
+        <th scope="col" class="{{ grouped ? 'export' }}">{{ 'label.description'|trans }}</th>
+        <th scope="col" class="{{ grouped ? 'export' }}">{{ 'label.peer_name'|trans }}</th>
+        <th scope="col" class="{{ grouped ? 'export' }}">{{ 'label.peer_asn'|trans }}</th>
+        <th scope="col" class="{{ grouped ? 'export' }}">{{ 'label.table'|trans }}</th>
+        <th scope="col">{{ 'label.network'|trans }}</th>
+        <th scope="col">{{ 'label.neighbor_name'|trans }}</th>
+        <th scope="col">{{ 'label.neighbor_asn'|trans }}</th>
+        <th scope="col" class="text-nowrap">{{ 'label.next_hop'|trans }}</th>
+        <th scope="col">{{ 'label.flags'|trans }}</th>
+        <th scope="col">{{ 'label.metric'|trans }}</th>
+        <th scope="col">{{ 'label.communities'|trans }}</th>
+        <th scope="col"><abbr title="Communities Count" data-toggle="tooltip">&Sigma;C</abbr></th>
+        <th scope="col" class="text-nowrap">{{ 'label.large_communities'|trans }}</th>
+        <th scope="col"><abbr title="Large Communities Count" data-toggle="tooltip">&Sigma;LC</abbr></th>
+        <th scope="col" class="text-nowrap">{{ 'label.extended_communities'|trans }}</th>
+        <th scope="col"><abbr title="Extended Communities Count" data-toggle="tooltip">&Sigma;EC</abbr></th>
+        <th scope="col" class="text-nowrap">{{ 'label.as_path'|trans }}</th>
+        <th scope="col">{{ 'action'|trans }}</th>
+    </tr>
+    </thead>
+</table>
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="small-modal" aria-hidden="true" id="route-table-modal">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="{{ 'close'|trans }}">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">{{ 'close'|trans }}</button>
+            </div>
+        </div>
+    </div>
+</div>

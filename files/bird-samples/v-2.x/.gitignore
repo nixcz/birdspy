@@ -1,0 +1,9 @@
+*
+!.gitignore
+!show_bfd_sessions.txt
+!show_protocols_all.txt
+!show_route_table_all-tiny.txt
+!show_route_table_table_filtered_all.txt
+!show_route_table_table_filtered_count.txt
+!show_status.txt
+!show_symbols.txt

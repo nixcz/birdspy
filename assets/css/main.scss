@@ -1,0 +1,32 @@
+/*
+ * Main SCSS file
+ */
+
+// Import custom variables and override default variables
+@import "./helpers/variables";
+
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Import FontAwesome
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+// Import Bootstrap Select
+@import '~bootstrap-select/dist/css/bootstrap-select.min.css';
+
+// Import DataTables
+@import '~datatables.net-bs4/css/dataTables.bootstrap4.min.css';
+@import '~datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css';
+@import '~datatables.net-colreorder-bs4/css/colReorder.bootstrap4.min.css';
+
+// Import custom styles
+@import './helpers/utilities';
+@import './mixins/bgh';
+
+@import './layout/global';
+@import './layout/datatables';
+
+@import 'components/bgh';
+@import 'components/heading';
+@import 'components/navigation';
+@import 'components/progress';

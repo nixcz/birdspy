@@ -1,0 +1,7 @@
+BIRD debian/2.0.7-2-x ready.
+BIRD debian/2.0.7-2-x
+Router ID is 91.210.16.1
+Current server time is 2019-12-16 16:40:17
+Last reboot on 2019-11-12 11:32:10
+Last reconfiguration on 2019-12-16 16:02:16
+Daemon is up and running

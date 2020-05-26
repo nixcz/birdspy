@@ -1,0 +1,24 @@
+# This file is the entry point to configure BirdSpy services.
+# Configure your own files in the packages subdirectory.
+
+parameters:
+    app.files_dir: '%kernel.project_dir%/files'
+    app.site:
+        title: 'BirdSpy'
+        subtitle: 'Looking Glass for BIRD Internet Routing Daemon'
+        build: 2020
+    app.organization:
+        name: 'NIX.CZ, z.s.p.o.'
+        short_name: 'NIX.CZ'
+        street: 'Milešovská 1136/5'
+        town: '130 00 Praha 3'
+        ic: '65990471'
+        dic: 'CZ65990471'
+        email: 'info@nix.cz'
+        founding: 1996
+    app.ga_tracking: UA-xxxxx-x
+
+services:
+    App\Service\BirdReaderInterface:
+        class: App\Service\BirdReader
+        autowire: true

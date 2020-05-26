@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+{% set route = app.request.get('_route') %}
+{% set route_params = app.request.attributes.get('_route_params') %}
+{% set params = route_params|merge(app.request.query.all) %}
+
+{% set app_locale = app.request.get('_locale') ?: default_locale %}
+{% set server_id = app.request.get('server') ?: default_server %}
+
+<html lang="{{ app_locale }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{% if route != 'homepage' %}{{ title|trim|striptags }} | {{ subtitle|trim|striptags }}{% else %}{{ site.title }} | {{ organization.short_name }}{% endif %}</title>
+
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
+    <link rel="icon" href="{{ asset('build/images/favicon.2ac705da.png') }}">
+</head>
+<body class="d-flex flex-column">
+{% block wrapper %}
+    {% block navigation %}
+        <div class="navigation-wrapper">
+            <div class="container navigation">
+                <a href="{{ path('homepage') }}"
+                   class="navbar-brand"
+                   title="{{ organization.short_name }}: {{ site.title }}">
+                    <img src="{{ asset('build/images/logo.d4b0bc9e.svg') }}"
+                         class="d-inline-block align-top"
+                         width="180" alt="{{ organization.short_name }}: {{ site.title }}">
+                </a>
+                {#<h5>{{ organization.short_name }}: {{ site.title }}</h5>#}
+                <nav class="main">
+                    <a href="{{ path('homepage') }}"
+                       class="{{ route == 'homepage' ? 'active' }}"
+                       title="{{ 'title.homepage'|trans }}">{{ 'navigation.homepage'|trans }}</a>
+
+                    <a href="{{ path('bfd_sessions', {server: server_id}) }}"
+                       class="{{ route == 'bfd_sessions' ? 'active' }}"
+                       title="{{ 'title.bfd_sessions'|trans }}">{{ 'navigation.bfd_sessions'|trans }}</a>
+
+                    <a href="{{ path('bgp_protocols', {server: server_id}) }}"
+                       class="{{ route == 'bgp_protocols' ? 'active' }}"
+                       title="{{ 'title.bgp_protocols'|trans }}">{{ 'navigation.bgp_protocols'|trans }}</a>
+
+                    <a href="{{ path('filtered_routes', {server: server_id}) }}"
+                       class="{{ route == 'filtered_routes' ? 'active' }}"
+                       title="{{ 'title.filtered_routes'|trans }}">{{ 'navigation.filtered_routes'|trans }}</a>
+
+                    {#<a href="{{ path('invalid_routes', {server: server_id}) }}"
+                       class="{{ route == 'invalid_routes' ? 'active' }}"
+                       title="{{ 'title.invalid_routes'|trans }}">{{ 'navigation.invalid_routes'|trans }}</a>#}
+
+                    <a href="{{ path('community_lookup', {server: server_id}) }}"
+                       class="{{ route == 'community_lookup' ? 'active' }}"
+                       title="{{ 'title.community_lookup'|trans }}">{{ 'navigation.community_lookup'|trans }}</a>
+
+                    <a href="{{ path('network_lookup', {server: server_id}) }}"
+                       class="{{ route == 'network_lookup' ? 'active' }}"
+                       title="{{ 'title.network_lookup'|trans }}">{{ 'navigation.network_lookup'|trans }}</a>
+                </nav>
+            </div>
+        </div>
+    {% endblock %}
+
+    {% block body %}
+        <div class="container pb-3">
+            {% block messages %}
+                {% for label, messages in app.flashes(['success', 'warning']) %}
+                    {% for message in messages %}
+                        <div class="alert alert-{{ label }} mb-0 mt-3 alert-dismissible fade show" role="alert">
+                            {{ message }}
+
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    {% endfor %}
+                {% endfor %}
+            {% endblock %}
+
+            {% block heading %}
+                <div class="heading">
+                    {% block heading_title %}
+                        <h1>{{ title }}</h1>
+                    {% endblock %}
+                    {% if block('heading_text') is defined %}
+                        <div class="heading-text">{{ block('heading_text')|trim|striptags|raw }}</div>
+                    {% endif %}
+                </div>
+            {% endblock %}
+
+            {% block content_wrapper %}
+                {% block content %}{% endblock %}
+            {% endblock %}
+        </div>
+    {% endblock %}
+
+    {% block footer %}
+        <footer class="container mt-auto pt-3 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    &copy; {{ organization.founding }}–{{ "now"|date("Y") }} <a href="//www.nix.cz/{{ app.request.get('_locale') ?: default_locale }}" target="_blank">{{ organization.short_name }}</a> – {{ 'nix.description'|trans }}
+                    <small class="d-block mb-3 text-muted">{{ organization.short_name }}: {{ site.title }} based on idea from <a href="//atlas.ripe.net/hackathon/ixp-tools/" target="_blank">the RIPE IXP Tools Hackaton</a> winning project. Find the code on <a href="//github.com/inex/birdseye" target="_blank">GitHub</a>.</small>
+                </div>
+            </div>
+        </footer>
+    {% endblock %}
+{% endblock %}
+
+{% block javascripts %}
+    <script>
+        const locale = '{{ app_locale }}';
+    </script>
+
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
+</body>
+</html>

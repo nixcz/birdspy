@@ -1,0 +1,35 @@
+// Heading
+
+.heading {
+  @extend .mx-auto;
+  @extend .py-3;
+  @extend .py-md-4;
+  @extend .pt-lg-5;
+
+  h1 {
+    @extend .display-4;
+  }
+}
+
+.heading-text {
+  @extend .lead;
+  @extend .text-muted;
+}
+
+.heading-display {
+  @extend .col-lg-9;
+  @extend .col-md-8;
+}
+
+.heading-navigation {
+  @extend .col-lg-3;
+  @extend .col-md-4;
+  @extend .align-self-end;
+  @extend .text-right;
+
+  nav {
+    @extend .d-none;
+    @extend .d-md-block;
+    @extend .text-nowrap;
+  }
+}

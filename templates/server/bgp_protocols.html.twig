@@ -1,0 +1,16 @@
+{% extends 'server/base_dropdown.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('bgp_protocols') }}
+{% endblock %}
+
+{% block content %}
+    {{ include('server/_table_bgp_protocols.html.twig') }}
+    {{ include('server/_modal_filter_bgp_protocols.html.twig') }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('bgp_protocols') }}
+{% endblock %}

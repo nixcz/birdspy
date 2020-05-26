@@ -1,0 +1,631 @@
+BIRD debian/2.0.7-2-x ready.
+Table master4:
+173.211.91.0/24      unicast [R4_6939x1 2019-11-12 11:34:33] * (100) [AS8038i]
+	via 91.210.16.201 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 6939 8038
+	BGP.next_hop: 91.210.16.201
+	BGP.med: 1497
+	BGP.local_pref: 100
+	BGP.community: (47200,64512) (0,6939) (0,16509) (0,15169) (0,13335) (0,15133) (0,22822) (0,12989) (0,2906) (0,20940) (0,16265) (0,16276) (0,12876) (65102,203) (65101,2401) (0,32934) (47200,64513)
+	BGP.large_community:
+185.50.77.0/24       unicast [R4_8218x1 2019-12-10 12:28:03] * (100) [AS48504?]
+	via 91.210.16.227 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 8218 48504
+	BGP.next_hop: 91.210.16.227
+	BGP.med: 1123
+	BGP.local_pref: 100
+	BGP.aggregator: 172.16.83.1 AS48504
+	BGP.community: (65511,11) (65253,123) (0,15169) (0,16265) (0,20940) (0,46489) (0,46786) (8218,101) (47200,47200) (65102,203) (65101,2201) (47200,64513)
+	BGP.large_community:
+                     unicast [R4_6461x2 2019-12-10 01:02:01] (100) [AS48504i]
+	via 91.210.16.228 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 6461 8218 48504
+	BGP.next_hop: 91.210.16.228
+	BGP.med: 980
+	BGP.local_pref: 100
+	BGP.aggregator: 172.16.83.1 AS48504
+	BGP.community: (65535,666) (0,16265) (0,36351) (47200,47200) (65102,203) (65101,2201) (47200,64513)
+	BGP.large_community:
+188.246.116.0/24     unicast [R4_25512x4 2019-11-28 04:06:06] * (100) [AS51331i]
+	via 91.210.16.101 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 25512 51331
+	BGP.next_hop: 91.210.16.101
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 188.246.116.1 AS51331
+	BGP.community: (65253,123) (65102,203) (65101,2401) (47200,64513)
+	BGP.large_community:
+                     unicast [R4_25512x3 2019-11-28 04:06:11] (100) [AS51331i]
+	via 91.210.16.100 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 25512 51331
+	BGP.next_hop: 91.210.16.100
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 188.246.116.1 AS51331
+	BGP.community: (65102,203) (65101,2201) (47200,64513)
+	BGP.large_community:
+                     unicast [R4_8251x4 2019-12-06 10:02:39] (100) [AS51331i]
+	via 91.210.16.74 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 8251 51331
+	BGP.next_hop: 91.210.16.74
+	BGP.med: 1
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 188.246.116.1 AS51331
+	BGP.community: (8251,47200) (15169,13250) (65102,203) (65101,2401) (47200,64513)
+	BGP.large_community:
+                     unicast [R4_8251x3 2019-12-16 11:41:35] (100) [AS51331i]
+	via 91.210.16.73 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 8251 51331
+	BGP.next_hop: 91.210.16.73
+	BGP.med: 2
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 188.246.116.1 AS51331
+	BGP.community: (8251,47200) (15169,13250) (65102,203) (65101,2101) (47200,64513)
+	BGP.large_community:
+                     unicast [R4_25248x3 2019-11-28 04:06:08] (100) [AS51331i]
+	via 91.210.16.205 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 25248 51331
+	BGP.next_hop: 91.210.16.205
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 188.246.116.1 AS51331
+	BGP.community: (25248,2037) (65102,203) (65101,2401) (47200,64513)
+	BGP.large_community:
+                     unicast [R4_25248x4 2019-11-28 04:06:08] (100) [AS51331i]
+	via 91.210.16.206 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 25248 51331
+	BGP.next_hop: 91.210.16.206
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 188.246.116.1 AS51331
+	BGP.community: (25248,2037) (65102,203) (65101,2101) (47200,64513)
+	BGP.large_community:
+                     unicast [R4_41711x3 2019-12-06 10:02:28] (100) [AS51331i]
+	via 91.210.16.87 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 41711 8251 51331
+	BGP.next_hop: 91.210.16.87
+	BGP.med: 3
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 188.246.116.1 AS51331
+	BGP.community: (0,47200) (65102,203) (65101,2401) (47200,64513)
+	BGP.ext_community: (rt, 41711, 10) (rt, 65253, 10)
+	BGP.large_community:
+                     unicast [R4_41711x4 2019-12-16 11:41:53] (100) [AS51331i]
+	via 91.210.16.88 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 41711 8251 51331
+	BGP.next_hop: 91.210.16.88
+	BGP.med: 4
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 188.246.116.1 AS51331
+	BGP.community: (0,47200) (65102,203) (65101,2101) (47200,64513)
+	BGP.ext_community: (rt, 41711, 10)
+	BGP.large_community:
+177.129.66.0/23      unicast [R4_57463x2 2019-12-15 01:25:37] * (100) [AS262389i]
+	via 91.210.16.125 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 57463 263080 262389
+	BGP.next_hop: 91.210.16.125
+	BGP.local_pref: 100
+	BGP.community: (16,1134) (63080,3) (64704,936) (65400,0) (65400,65400) (65102,203) (65101,2401) (47200,64513)
+	BGP.large_community: (57463, 0, 1120) (57463, 0, 5408) (57463, 0, 6461) (57463, 0, 6663) (57463, 0, 6762) (57463, 0, 6830) (57463, 0, 6939) (57463, 0, 8657) (57463, 0, 8757) (57463, 0, 8763) (57463, 0, 10906) (57463, 0, 11284) (57463, 0, 11644) (57463, 0, 12989) (57463, 0, 13237) (57463, 0, 14840) (57463, 0, 20562) (57463, 0, 21574) (57463, 0, 22356) (57463, 0, 22381) (57463, 0, 22822) (57463, 0, 28186) (57463, 0, 28260) (57463, 0, 28330)
+		(57463, 0, 28663) (57463, 0, 32787) (57463, 0, 33891) (57463, 0, 36351) (57463, 0, 37100) (57463, 0, 37468) (57463, 0, 43350) (57463, 0, 45474) (57463, 0, 52320) (57463, 0, 52551) (57463, 0, 52866) (57463, 0, 52937) (57463, 0, 53162) (57463, 0, 58453) (57463, 0, 61568) (57463, 0, 61832) (57463, 0, 262354) (57463, 0, 262589) (57463, 0, 262773) (57463, 0, 262807) (57463, 0, 263009) (57463, 0, 263276) (57463, 0, 263324) (57463, 0, 263421)
+		(57463, 0, 263626) (57463, 0, 265187) (57463, 0, 267056) (57463, 0, 267613) (57463, 0, 268331) (57463, 0, 268696)
+84.242.37.0/24       unicast [R4_6939x1 2019-11-17 22:16:09] * (100) [AS204170i]
+	via 91.210.16.201 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 6939 8529 204170
+	BGP.next_hop: 91.210.16.201
+	BGP.med: 240
+	BGP.local_pref: 100
+	BGP.community: (0,6939) (0,16509) (0,15169) (0,13335) (0,15133) (0,22822) (0,12989) (0,2906) (0,20940) (0,16265) (0,16276) (0,12876) (65102,203) (65101,2401) (0,32934) (47200,64513)
+	BGP.large_community:
+
+Table T4_65253x1:
+78.108.107.71/32     unicast [R4_8251x3 2019-12-24 10:02:35] * (100) [AS8251?]
+	via 91.210.16.73 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 8251
+	BGP.next_hop: 91.210.16.250
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (65102,203) (65101,2101) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+                     unicast [R4_8251x4 2019-12-24 10:02:39] (100) [AS8251?]
+	via 91.210.16.74 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 8251
+	BGP.next_hop: 91.210.16.250
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (65102,203) (65101,2401) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+213.235.85.231/32    unicast [R4_25424x3 2019-11-29 14:18:38] * (100) [AS6740?]
+	via 91.210.16.17 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 25424 6740
+	BGP.next_hop: 91.210.16.250
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (65535,65281) (65102,203) (65101,2501) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+                     unicast [R4_25424x4 2019-11-29 14:18:38] (100) [AS6740?]
+	via 91.210.16.18 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 25424 6740
+	BGP.next_hop: 91.210.16.250
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (65535,65281) (65102,203) (65101,2401) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+95.87.213.216/32     unicast [R4_57463x2 2019-12-25 10:02:20] * (100) [AS43561i]
+	via 91.210.16.125 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 57463 34224 43561
+	BGP.next_hop: 91.210.16.250
+	BGP.local_pref: 100
+	BGP.community: (65102,203) (65101,2401) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+178.134.31.254/32    unicast [R4_57463x2 2019-12-25 10:02:21] * (100) [AS35805i]
+	via 91.210.16.125 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 57463 35805
+	BGP.next_hop: 91.210.16.250
+	BGP.local_pref: 100
+	BGP.community: (65102,203) (65101,2401) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+93.123.81.5/32       unicast [R4_57463x2 2019-12-25 10:02:19] * (100) [AS43561i]
+	via 91.210.16.125 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 57463 34224 43561
+	BGP.next_hop: 91.210.16.250
+	BGP.local_pref: 100
+	BGP.community: (65102,203) (65101,2401) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+31.47.96.186/32      unicast [R4_8251x3 2019-12-24 10:02:35] * (100) [AS8251?]
+	via 91.210.16.73 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 8251
+	BGP.next_hop: 91.210.16.250
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (65102,203) (65101,2101) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+                     unicast [R4_8251x4 2019-12-24 10:02:39] (100) [AS8251?]
+	via 91.210.16.74 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 8251
+	BGP.next_hop: 91.210.16.250
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (65102,203) (65101,2401) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+37.232.27.90/32      unicast [R4_57463x2 2019-12-25 10:02:16] * (100) [AS35805i]
+	via 91.210.16.125 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 57463 35805
+	BGP.next_hop: 91.210.16.250
+	BGP.local_pref: 100
+	BGP.community: (65102,203) (65101,2401) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+31.146.83.169/32     unicast [R4_57463x2 2019-12-25 10:02:16] * (100) [AS35805i]
+	via 91.210.16.125 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 57463 35805
+	BGP.next_hop: 91.210.16.250
+	BGP.local_pref: 100
+	BGP.community: (65102,203) (65101,2401) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+213.235.77.123/32    unicast [R4_25424x3 2019-11-26 08:19:13] * (100) [AS6740?]
+	via 91.210.16.17 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 25424 6740
+	BGP.next_hop: 91.210.16.250
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (65535,65281) (65102,203) (65101,2501) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+                     unicast [R4_25424x4 2019-11-26 08:19:13] (100) [AS6740?]
+	via 91.210.16.18 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 25424 6740
+	BGP.next_hop: 91.210.16.250
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (65535,65281) (65102,203) (65101,2401) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+78.108.97.203/32     unicast [R4_8251x3 2019-12-24 10:02:35] * (100) [AS8251?]
+	via 91.210.16.73 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 8251
+	BGP.next_hop: 91.210.16.250
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (65102,203) (65101,2101) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+                     unicast [R4_8251x4 2019-12-24 10:02:39] (100) [AS8251?]
+	via 91.210.16.74 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 8251
+	BGP.next_hop: 91.210.16.250
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (65102,203) (65101,2401) (47200,64512)
+	BGP.ext_community:
+	BGP.large_community:
+
+Table master6:
+2401:a400::/32       unicast [R6_6939x2 2019-12-08 04:26:14] * (100) [AS7477i]
+	via 2001:7f8:14::6e:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 6939 38195 7477 7477 7477
+	BGP.next_hop: 2001:7f8:14::6e:1 fe80::ce4e:24ff:fe4d:6702
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (0,6939) (0,16509) (0,15169) (0,13335) (0,15133) (0,22822) (0,12989) (0,2906) (0,20940) (0,16265) (0,16276) (0,12876) (65102,203) (65101,2401) (0,32934) (47200,64513)
+	BGP.large_community:
+2800:be0:3e2::/48    unicast [R6_6939x2 2019-12-09 14:33:51] * (100) [AS267848i]
+	via 2001:7f8:14::6e:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 6939 267848
+	BGP.next_hop: 2001:7f8:14::6e:1 fe80::ce4e:24ff:fe4d:6702
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (0,6939) (0,16509) (0,15169) (0,13335) (0,15133) (0,22822) (0,12989) (0,2906) (0,20940) (0,16265) (0,16276) (0,12876) (65102,203) (65101,2401) (0,32934) (47200,64514)
+	BGP.large_community:
+2a03:2a80::/32       unicast [R6_47232x2 2019-12-10 05:56:50] * (100) [AS196782?]
+	via 2001:7f8:14::33:2 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 47232 196782 196782 196782 196782
+	BGP.next_hop: 2001:7f8:14::33:2 fe80::ce4e:24ff:fe92:6800
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 95.143.128.1 AS196782
+	BGP.community: (65102,203) (65101,2501) (47200,64514)
+	BGP.large_community:
+                     unicast [R6_47232x1 2019-12-10 05:56:50] (100) [AS196782?]
+	via 2001:7f8:14::33:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 47232 196782 196782 196782 196782
+	BGP.next_hop: 2001:7f8:14::33:1 fe80::ce4e:24ff:fe92:5200
+	BGP.med: 50
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 95.143.128.1 AS196782
+	BGP.community: (65102,203) (65101,2401) (47200,64514)
+	BGP.large_community:
+                     unicast [R6_6939x2 2019-12-10 05:56:50] (100) [AS196782i]
+	via 2001:7f8:14::6e:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 6939 47232 196782 196782 196782 196782
+	BGP.next_hop: 2001:7f8:14::6e:1 fe80::ce4e:24ff:fe4d:6702
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 95.143.128.1 AS196782
+	BGP.community: (0,6939) (0,16509) (0,15169) (0,13335) (0,15133) (0,22822) (0,12989) (0,2906) (0,20940) (0,16265) (0,16276) (0,12876) (65102,203) (65101,2401) (0,32934) (47200,64514)
+	BGP.large_community:
+2402:9e80::/48       unicast [R6_36351x1 2019-11-19 02:15:11] * (100) [AS36351i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,31) (36351,34) (36351,36351) (65517,30) (65517,3301) (65102,203) (65101,2401) (47200,64514)
+	BGP.large_community:
+                     unicast [R6_36351x2 2019-11-19 02:15:11] (100) [AS36351i]
+	via 2001:7f8:14::84:2 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351
+	BGP.next_hop: 2001:7f8:14::84:2 fe80::d207:caff:fe10:2fc5
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,31) (36351,34) (36351,36351) (65517,30) (65517,3301) (65102,203) (65101,2201) (47200,64514)
+	BGP.large_community:
+                     unicast [R6_6939x2 2019-11-12 11:33:04] (100) [AS36351i]
+	via 2001:7f8:14::6e:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 6939 36351
+	BGP.next_hop: 2001:7f8:14::6e:1 fe80::ce4e:24ff:fe4d:6702
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (0,6939) (0,16509) (0,15169) (0,13335) (0,15133) (0,22822) (0,12989) (0,2906) (0,20940) (0,16265) (0,16276) (0,12876) (65102,203) (65101,2401) (0,32934) (47200,64514)
+	BGP.large_community: (65535, 666, 123) (65511, 111, 111) (47200, 1102, 10)
+
+Table T6_36351x1:
+2607:f0d0:6::/64     unicast [R6_36351x1 2019-11-19 02:15:11] * (100) [AS36351i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,31) (36351,32) (36351,3530) (36351,36351) (65535,3301) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 1)
+2403:8300:e08::/46   unicast [R6_36351x1 2019-11-19 02:15:12] * (100) [AS204527i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 204527
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,51) (36351,54) (36351,4150) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2403:8300:e04::/47   unicast [R6_36351x1 2019-11-19 02:15:12] * (100) [AS204527i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 204527
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,51) (36351,54) (36351,4150) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2a02:cb41::/32       unicast [R6_36351x1 2019-11-19 02:15:12] * (100) [AS20546i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 20546
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,51) (36351,52) (36351,36351) (46704,50) (46704,3104) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2a03:6c60:8000::/33  unicast [R6_36351x1 2019-11-19 02:15:12] * (100) [AS50526i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 50526
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,51) (36351,53) (36351,36351) (65526,50) (65526,3102) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2a07:db01::/48       unicast [R6_36351x1 2019-11-19 02:15:12] * (100) [AS204527i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 204527
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,51) (36351,54) (36351,4150) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2403:8300:e00::/48   unicast [R6_36351x1 2019-11-19 02:15:12] * (100) [AS204527i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 204527
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,51) (36351,54) (36351,4150) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2a07:1980:6::/48     unicast [R6_36351x1 2019-11-24 16:25:15] * (100) [AS48851i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 48851
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.aggregator: 169.50.54.41 AS48851
+	BGP.community: (36351,51) (36351,53) (36351,2150) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2a07:1980:5::/48     unicast [R6_36351x1 2019-12-22 07:06:08] * (100) [AS48851i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 48851
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.aggregator: 169.38.125.195 AS48851
+	BGP.community: (36351,51) (36351,54) (36351,3950) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2a07:1980:e::/48     unicast [R6_36351x1 2019-11-21 14:46:16] * (100) [AS48851i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 48851
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.aggregator: 165.192.79.105 AS48851
+	BGP.community: (36351,51) (36351,54) (36351,5650) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2a07:1980:b::/48     unicast [R6_36351x1 2019-12-26 18:32:22] * (100) [AS48851i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 48851
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.aggregator: 161.202.62.249 AS48851
+	BGP.community: (36351,51) (36351,54) (36351,1750) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2a07:1980:a::/48     unicast [R6_36351x1 2019-11-19 02:15:12] * (100) [AS48851i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 48851
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.aggregator: 168.1.52.173 AS48851
+	BGP.community: (36351,51) (36351,55) (36351,3150) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2606:2e00:8022::/64  unicast [R6_36351x1 2019-11-19 02:15:11] * (100) [AS36351i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,31) (36351,33) (36351,4330) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 1)
+2606:2e00:8023::/64  unicast [R6_36351x1 2019-11-19 02:15:11] * (100) [AS36351i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,31) (36351,34) (36351,4130) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 1)
+2606:2e00:8020::/64  unicast [R6_36351x1 2019-11-19 02:15:11] * (100) [AS36351i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,31) (36351,32) (36351,3530) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 1)
+2606:2e00:8021::/64  unicast [R6_36351x1 2019-11-19 02:15:11] * (100) [AS36351i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,31) (36351,33) (36351,1153) (36351,3230) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 1)
+2a03:6c60::/33       unicast [R6_36351x1 2019-11-19 02:15:12] * (100) [AS50526i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 50526
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,51) (36351,53) (36351,2150) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+2a03:6c60::/32       unicast [R6_36351x1 2019-11-19 02:15:12] * (100) [AS50526i]
+	via 2001:7f8:14::84:1 on bond0.10
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 36351 50526
+	BGP.next_hop: 2001:7f8:14::84:1 fe80::7a19:f7ff:fe32:c0a7
+	BGP.med: 0
+	BGP.local_pref: 100
+	BGP.community: (36351,51) (36351,53) (36351,2150) (36351,36351) (65102,203) (65101,2401)
+	BGP.large_community: (47200, 1101, 10)
+
+Table roat4:
+193.105.0.0/24-24 AS203924  [rpki4 2019-11-14 17:02:24] * (100)
+	Type: RPKI univ
+                      [rpki2 2019-12-15 23:14:55] (100)
+	Type: RPKI univ
+                      [rpki1 2019-11-19 12:02:09] (100)
+	Type: RPKI univ
+202.90.240.0/21-24 AS4764  [rpki4 2019-11-14 17:02:24] * (100)
+	Type: RPKI univ
+                      [rpki2 2019-12-15 23:18:21] (100)
+	Type: RPKI univ
+                      [rpki1 2019-11-19 12:02:09] (100)
+	Type: RPKI univ
+61.60.0.0/17-17 AS4782  [rpki4 2019-11-14 17:02:24] * (100)
+	Type: RPKI univ
+                      [rpki2 2019-12-15 23:18:21] (100)
+	Type: RPKI univ
+                      [rpki1 2019-11-19 12:02:09] (100)
+	Type: RPKI univ
+
+Table roat6:
+2400:54c0:c0::/44-44 AS136352  [rpki4 2019-11-14 17:02:24] * (100)
+	Type: RPKI univ
+                      [rpki2 2019-12-15 23:18:21] (100)
+	Type: RPKI univ
+                      [rpki1 2019-11-19 12:02:09] (100)
+	Type: RPKI univ
+2800:be0:3e2::/48-48 AS267848  [rpki4 2019-11-14 17:02:24] * (100)
+	Type: RPKI univ
+                      [rpki2 2019-12-14 08:50:42] (100)
+	Type: RPKI univ
+                      [rpki1 2019-11-19 12:02:09] (100)
+	Type: RPKI univ
+2800:be0:3e3::/48-48 AS267848  [rpki4 2019-11-14 17:02:24] * (100)
+	Type: RPKI univ
+                      [rpki2 2019-12-14 08:50:42] (100)
+	Type: RPKI univ
+                      [rpki1 2019-11-19 12:02:09] (100)
+	Type: RPKI univ
+2803:a800::/32-32 AS174  [rpki4 2019-11-14 17:02:24] * (100)
+	Type: RPKI univ
+                      [rpki2 2019-12-14 08:50:42] (100)
+	Type: RPKI univ
+                      [rpki1 2019-11-19 12:02:09] (100)
+	Type: RPKI univ

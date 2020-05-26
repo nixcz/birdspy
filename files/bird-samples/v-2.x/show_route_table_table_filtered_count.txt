@@ -1,0 +1,2 @@
+BIRD debian/2.0.7-2-x ready.
+2133 of 95994 routes for 87110 networks in table T4_6939x1

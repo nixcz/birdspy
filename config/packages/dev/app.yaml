@@ -1,0 +1,7 @@
+parameters:
+    app.tiny_samples: true
+
+services:
+    App\Service\BirdReaderInterface:
+        class: App\Service\BirdSampleReader
+        autowire: true

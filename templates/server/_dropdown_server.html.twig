@@ -1,0 +1,13 @@
+<div class="btn-group" title="{{ 'placeholder.route_server'|trans }}">
+    <button type="button" class="btn {% if button_class is defined %}{{ button_class }} {% endif %}dropdown-toggle"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{ routeServerService.getServerById(server_id).name }}
+    </button>
+    <div class="dropdown-menu dropdown-menu-right">
+        {% for server in routeServerService.servers %}
+            <a class="dropdown-item" href="{{ path(route, params|merge({ server: server.id })) }}">
+                {{ server.name }}
+            </a>
+        {% endfor %}
+    </div>
+</div>

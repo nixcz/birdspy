@@ -1,0 +1,19 @@
+{% extends 'server/base_dropdown.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('community_lookup') }}
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-6">
+            {{ include('server/_form_community_lookup.html.twig') }}
+        </div>
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('community_lookup') }}
+{% endblock %}

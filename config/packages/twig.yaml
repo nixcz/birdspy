@@ -1,0 +1,24 @@
+twig:
+    default_path: '%kernel.project_dir%/templates'
+    debug: '%kernel.debug%'
+    strict_variables: '%kernel.debug%'
+    form_themes: ['bootstrap_4_layout.html.twig']
+    exception_controller: null
+    date:
+        format: 'd. m. Y H:i:s'
+        interval_format: '%%d days'
+        timezone: 'Europe/Prague'
+    number_format:
+        decimals: 0
+        decimal_point: ','
+        thousands_separator: ' '
+    globals:
+        default_locale: '%locale%'
+        locales: '%locales%'
+        site: '%app.site%'
+        organization: '%app.organization%'
+        ga_tracking: '%app.ga_tracking%'
+        bird_flags: '%bird.flags%'
+        bird_known: '%bird.known%'
+        default_server: '%bird.default_server%'
+        routeServerService: '@App\Service\RouteServerService'

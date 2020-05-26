@@ -1,0 +1,122 @@
+navigation:
+    bfd_sessions: BFD
+    bgp_protocols: BGP
+    community_lookup: Community
+    homepage: Home
+    invalid_routes: Invalid
+    network_lookup: Network
+    filtered_routes: Filtered
+
+menu:
+    bfd_sessions: BFD Sessions
+    bgp_protocols: BGP Protocols
+    filtered_routes: Filtered Routes
+
+title:
+    bfd_sessions: BFD Sessions Summary
+    bgp_protocols: BGP Protocols Summary
+    community_lookup: BGP Community Lookup
+    community_table_routes: Community Table Routes
+    exported_routes: Exported Routes
+    extended_community_table_routes: Extended Community Table Routes
+    filter_bfd_sessions: Filter BFD Sessions
+    filter_bgp_protocols: Filter BGP Protocols
+    filter_server_routes: Filter Server Routes
+    homepage: Homepage
+    imported_routes: Imported Routes
+    invalid_routes: Invalid Routes
+    large_community_table_routes: Large Community Table Routes
+    network_lookup: Network Prefix Lookup
+    prefix_exported_routes: Exported Routes for Network Prefix
+    prefix_imported_routes: Imported Routes for Network Prefix
+    prefix_table_routes: Table Routes for Network Prefix
+    filtered_routes: Filtered Routes
+    table_routes: Table Routes
+    table_invalid_routes: Table Invalid Routes
+    table_filtered_routes: Table Filtered Routes
+
+subtitle:
+    community_table_routes: 'Routes from table: %table% %peer% on server: %server% with BGP community: %community%'
+    exported_routes: 'Routes exported to protocol: %protocol% %peer% on server: %server%'
+    extended_community_table_routes: 'Routes from table: %table% %peer% on server: %server% with BGP extended community: %community%'
+    imported_routes: 'Routes imported from protocol: %protocol% %peer% on server: %server%'
+    invalid_routes: 'Routes with invalid BGP communities on server: %server%'
+    large_community_table_routes: 'Routes from table: %table% %peer% on server: %server% with BGP large community: %community%'
+    prefix_exported_routes: 'Routes exported to protocol: %protocol% %peer% on server: %server% for network prefix: %prefix%'
+    prefix_imported_routes: 'Routes imported from protocol: %protocol% %peer% on server: %server% for network prefix: %prefix%'
+    prefix_table_routes: 'Routes from table: %table% %peer% on server: %server% for network prefix: %prefix%'
+    filtered_routes: 'Routes with selected BGP communities on server: %server%'
+    table_invalid_routes: 'Routes with invalid BGP communities from table: %table% %peer% on server: %server%'
+    table_filtered_routes: 'Routes with selected BGP communities from table: %table% %peer% on server: %server%'
+    table_routes: 'Routes from table: %table% %peer% on server: %server%'
+
+label:
+    asn: ASN
+    as_path: AS Path
+    bfd_state: BFD State
+    bgp_state: BGP State
+    communities: Communities
+    community: Community
+    description: Description
+    exported_protocol: Exported to Protocol
+    exported_routes: Exported Routes
+    extended_communities: Extended Communities
+    extended_community: Extended Community
+    flags: Flags
+    import_limit: Import limit
+    import_ratio: PfxRcd/PfxLimit
+    imported_protocol: Imported from Protocol
+    imported_routes: Imported Routes
+    interface: Interface
+    interval: Interval
+    invalid_ratio: PfxInv/PfxRcd
+    invalid_routes: Invalid Routes
+    ip_address: IP Address
+    metric: Metric
+    large_communities: Large Communities
+    large_community: Large Community
+    neighbor_asn: Neighbor ASN
+    neighbor_name: Neighbor Name
+    network: Network
+    network_prefix: Network Prefix
+    next_hop: Next Hop
+    peer_asn: Peer ASN
+    peer_name: Peer Name
+    protocol: Protocol
+    since: Since
+    source: Source
+    state_changed: State Changed
+    status: Status
+    table: Table
+    timeout: Timeout
+
+shortcut:
+    bfd_state: State
+    bgp_state: State
+    exported_routes: PfxExp
+    import_limit: PfxLimit
+    import_ratio: PfxRatio
+    imported_routes: PfxRcd
+    invalid_ratio: InvRatio
+    invalid_routes: PfxInv
+    state_changed: Changed
+
+help:
+    network_prefix: '192.0.2.0/24 | 2001:db8:7:2::/64'
+
+placeholder:
+    community: Please select community
+    network_prefix: '192.0.2.0/24 | 2001:db8:7:2::/64'
+    route_server: Select Route Server
+    source: Please select source
+    table: Please select table
+
+nix:
+    description: Neutral Internet eXchange for the Czech Republic and Beyond!
+
+action: Action
+cancel: Cancel
+clear: Clear
+close: Close
+reset: Reset
+submit: Submit

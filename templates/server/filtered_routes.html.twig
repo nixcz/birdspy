@@ -1,0 +1,11 @@
+{% extends 'server/server_routes_dropdown.html.twig' %}
+
+{% block content %}
+    {{ include('server/_table_server_routes.html.twig', {
+        grouped: true,
+        just_invalid: true,
+    }) }}
+    {{ include('server/_modal_filter_server_routes.html.twig', {
+        grouped: true
+    }) }}
+{% endblock %}

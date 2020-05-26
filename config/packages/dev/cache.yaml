@@ -1,0 +1,6 @@
+parameters:
+    app.cache.short_lifetime: 120
+    app.cache.cycle_lifetime: 300
+    app.cache.reading_lifetime: 600
+    app.cache.long_lifetime: 3600
+    app.cache.very_long_lifetime: 3600

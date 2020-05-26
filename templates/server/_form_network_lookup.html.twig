@@ -1,0 +1,22 @@
+{{ form_start(form, {'attr': {'id': 'network-lookup-form'}}) }}
+    {{ form_errors(form) }}
+
+    <div class="form-row">
+        <div class="col">
+            {{ form_row(form.source, {'attr': {
+                'class': 'selectpicker',
+                'title': 'placeholder.source',
+                'data-live-search': 'true',
+                'required': 'required'}
+            }) }}
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col">
+            {{ form_row(form.network) }}
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">{{ 'submit'|trans }}</button>
+{{ form_end(form) }}

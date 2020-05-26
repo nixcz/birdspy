@@ -1,0 +1,22 @@
+<table id="bfd-sessions"
+       class="table-dt"
+       data-url="{{ path('bfd_sessions_api', {server: server_id}) }}"
+       data-server="{{ server_id }}"
+       cellspacing="0"
+       width="100%">
+    <thead>
+    <tr>
+        <th scope="col" class="text-nowrap">{{ 'label.peer_name'|trans }}</th>
+        <th scope="col">{{ 'label.table'|trans }}</th>
+        <th scope="col" class="text-nowrap">{{ 'label.ip_address'|trans }}</th>
+        <th scope="col">{{ 'label.description'|trans }}</th>
+        <th scope="col">{{ 'label.asn'|trans }}</th>
+        <th scope="col">{{ 'label.interface'|trans }}</th>
+        <th scope="col">{{ 'shortcut.bfd_state'|trans }}</th>
+        <th scope="col">{{ 'label.since'|trans }}</th>
+        <th scope="col">{{ 'label.interval'|trans }}</th>
+        <th scope="col">{{ 'label.timeout'|trans }}</th>
+        <th scope="col">{{ 'action'|trans }}</th>
+    </tr>
+    </thead>
+</table>

@@ -1,0 +1,28 @@
+// DataTables styling
+
+.table-dt {
+  @extend .table;
+  @extend .table-striped;
+  @extend .table-hover;
+  @extend .table-responsive-lg;
+}
+
+.dataTables_wrapper {
+  @media screen {
+    // Screen sizes smaller than the medium breakpoint
+    @include media-breakpoint-down(md) {
+      .dataTables_length,
+      .dataTables_filter,
+      .dataTables_info,
+      .dataTables_paginate,
+      .export-buttons,
+      .filter-buttons {
+        text-align: right;
+      }
+    }
+  }
+}
+
+th.column-filter {
+  padding: 12px 4px;
+}

@@ -1,0 +1,26 @@
+<table id="bgp-protocols"
+       class="table-dt"
+       data-url="{{ path('bgp_protocols_api', {server: server_id}) }}"
+       data-server="{{ server_id }}"
+       cellspacing="0"
+       width="100%">
+    <thead>
+    <tr>
+        <th scope="col" class="text-nowrap">{{ 'label.peer_name'|trans }}</th>
+        <th scope="col">{{ 'label.table'|trans }}</th>
+        <th scope="col" class="text-nowrap">{{ 'label.ip_address'|trans }}</th>
+        <th scope="col">{{ 'label.description'|trans }}</th>
+        <th scope="col">{{ 'label.asn'|trans }}</th>
+        <th scope="col"><abbr title="{{ 'label.bgp_state'|trans }}" data-toggle="tooltip">{{ 'shortcut.bgp_state'|trans }}</abbr></th>
+        <th scope="col"><abbr title="{{ 'label.import_ratio'|trans }}" data-toggle="tooltip">{{ 'shortcut.import_ratio'|trans }}</abbr></th>
+        <th scope="col"><abbr title="{{ 'label.invalid_ratio'|trans }}" data-toggle="tooltip">{{ 'shortcut.invalid_ratio'|trans }}</abbr></th>
+        <th scope="col"><abbr title="{{ 'label.import_limit'|trans }}" data-toggle="tooltip">{{ 'shortcut.import_limit'|trans }}</abbr></th>
+        <th scope="col"><abbr title="{{ 'label.imported_routes'|trans }}" data-toggle="tooltip">{{ 'shortcut.imported_routes'|trans }}</abbr></th>
+        <th scope="col"><abbr title="{{ 'label.exported_routes'|trans }}" data-toggle="tooltip">{{ 'shortcut.exported_routes'|trans }}</abbr></th>
+        <th scope="col"><abbr title="{{ 'label.invalid_routes'|trans }}" data-toggle="tooltip">{{ 'shortcut.invalid_routes'|trans }}</abbr></th>
+        <th scope="col">{{ 'label.status'|trans }}</th>
+        <th scope="col"><abbr title="{{ 'label.state_changed'|trans }}" data-toggle="tooltip">{{ 'shortcut.state_changed'|trans }}</abbr></th>
+        <th scope="col">{{ 'action'|trans }}</th>
+    </tr>
+    </thead>
+</table>

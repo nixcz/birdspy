@@ -1,0 +1,12 @@
+// Global styling for this theme
+
+html,
+body {
+  height: 100%;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1540px;
+  }
+}

@@ -1,0 +1,31 @@
+{{ form_start(form, {'attr': {'id': 'community-lookup-form'}}) }}
+    {{ form_errors(form) }}
+
+    <div class="form-row">
+        <div class="col">
+            {{ form_row(form.table, {'attr': {
+                'class': 'selectpicker',
+                'title': 'placeholder.table',
+                'data-live-search': true,
+                'data-show-subtext': true,
+                'required': 'required'}
+            }) }}
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col">
+            {{ form_row(form.community, {'attr': {
+                'class': 'selectpicker',
+                'title': 'placeholder.community',
+                'data-live-search': true,
+                'data-selected-text-format': 'count > 1',
+                'data-max-options': 10,
+                'required': 'required',
+                'multiple': true}
+            }) }}
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">{{ 'submit'|trans }}</button>
+{{ form_end(form) }}

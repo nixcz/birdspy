@@ -1,0 +1,40 @@
+{
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.11.2",
+        "@symfony/webpack-encore": "^0.28.0",
+        "autoprefixer": "^9.7.3",
+        "bootstrap": "^4.4.1",
+        "bootstrap-select": "^1.13.12",
+        "core-js": "^3.0.0",
+        "datatables.net-bs4": "^1.10.20",
+        "datatables.net-buttons-bs4": "^1.6.1",
+        "datatables.net-colreorder-bs4": "^1.5.2",
+        "datatables.net-plugins": "^1.10.20",
+        "fibers": "^4.0.2",
+        "jquery": "^3.4.1",
+        "jquery-validation": "^1.19.1",
+        "jszip": "^3.2.2",
+        "node-sass": "^4.13.0",
+        "popper.js": "^1.16.0",
+        "postcss-loader": "^3.0.0",
+        "regenerator-runtime": "^0.13.2",
+        "sass": "^1.23.7",
+        "sass-loader": "^7.0.1",
+        "script-loader": "^0.7.2",
+        "webpack-notifier": "^1.6.0"
+    },
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production --progress"
+    },
+    "browserslist": [
+        "> 0.5%",
+        "last 2 versions",
+        "Firefox ESR",
+        "not dead"
+    ]
+}

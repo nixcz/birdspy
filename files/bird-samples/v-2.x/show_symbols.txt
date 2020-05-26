@@ -1,0 +1,1811 @@
+BIRD debian/2.0.7-2-x ready.
+T6_43708x1	routing table
+pp6_as201163x2	protocol
+R6_28972x1	protocol
+pp4_as208543x2	protocol
+bgp_out 	function
+T4_44489x2	routing table
+T6_15935x1	routing table
+T4_29583x1	routing table
+R6_39817x1	protocol
+R4_59970x3	protocol
+T4_57463x2	routing table
+R6_28972x2	protocol
+T6_15935x2	routing table
+pp4_as206548x2	protocol
+T6_42477x1	routing table
+R6_28892x1	protocol
+T6_43709x1	routing table
+bfd1    	protocol
+info    	undefined
+T6_42908x1	routing table
+R4_59970x4	protocol
+R6_46489x1	protocol
+R6_49931x1	protocol
+bgp6_in_AS59970x1	filter
+T6_42477x2	routing table
+T4_39904x3	routing table
+T4_58239x2	routing table
+T6_15685x1	routing table
+R6_46489x2	protocol
+T6_24971x1	routing table
+ips_site	constant
+bgp6_in_AS59970x2	filter
+bgp4_in_AS197046x2	filter
+R6_39790x1	protocol
+peer    	undefined
+T4_39904x4	routing table
+pp6_as203072x1	protocol
+description	undefined
+T6_15685x2	routing table
+T6_49206x1	routing table
+pp6_as201730x1	protocol
+pp6_as201811x1	protocol
+T6_61296x1	routing table
+R6_48298x1	protocol
+T6_24971x2	routing table
+rpki_input_filter6	function
+R6_39790x2	protocol
+as      	undefined
+T6_65253x1	routing table
+bgp4_in_AS197307x2	filter
+T4_39906x2	routing table
+pp6_as201730x2	protocol
+T6_61296x2	routing table
+R6_48298x2	protocol
+R6_39791x1	protocol
+T6_50695x1	routing table
+T6_33891x1	routing table
+T6_56344x1	routing table
+T4_39817x2	routing table
+R6_39791x2	protocol
+T4_28972x3	routing table
+T6_35592x1	routing table
+bgp4_in_AS199330x2	filter
+T6_29086x1	routing table
+T4_57279x1	routing table
+pp6_as202605x1	protocol
+function	undefined
+T4_28892x2	routing table
+T6_60890x1	routing table
+T4_28972x4	routing table
+T6_35592x2	routing table
+T4_49931x2	routing table
+T6_28725x1	routing table
+T6_48451x1	routing table
+T4_46489x3	routing table
+T6_28725x2	routing table
+bgp6_in_AS201053x1	filter
+pp6_as203165x1	protocol
+T4_46489x4	routing table
+T4_39790x3	routing table
+T6_48417x1	routing table
+R4_59984x3	protocol
+R6_28978x1	protocol
+pp4_as197013x1	protocol
+T6_28851x1	routing table
+T4_48298x3	routing table
+pp6_as203165x2	protocol
+T6_50698x1	routing table
+R6_47868x1	protocol
+R4_59959x2	protocol
+T4_39790x4	routing table
+T6_48417x2	routing table
+R6_47949x1	protocol
+R4_59984x4	protocol
+bgp6_in_AS59984x1	filter
+T6_28851x2	routing table
+T4_48298x4	routing table
+pipe    	undefined
+T4_39791x3	routing table
+NIX_LC_FILTERED_BOGON	constant
+T6_50698x2	routing table
+bgp6_in_AS200155x1	filter
+from    	undefined
+long    	undefined
+bgp6_in_AS59984x2	filter
+T4_48298x5	routing table
+T4_39791x4	routing table
+T6_36692x1	routing table
+bgp6_in_AS200155x2	filter
+bgp6_in_AS59959x1	filter
+T4_48298x6	routing table
+R6_59970x1	protocol
+rtbhas  	constant
+T4_38949x1	routing table
+T6_44489x1	routing table
+bgp6_in_AS201163x1	filter
+timeformat	undefined
+bgp4_in_AS197284x2	filter
+bgp4_in_AS198605x3	filter
+template	undefined
+none    	undefined
+R6_59970x2	protocol
+T6_57463x1	routing table
+bgp6_in_AS201163x2	filter
+T4_28978x2	routing table
+bgp4_in_AS198605x4	filter
+T6_39904x1	routing table
+bgp4_in_AS196762x1	filter
+T4_47868x2	routing table
+R4_10310x3	protocol
+T4_47949x2	routing table
+time    	undefined
+interval	undefined
+T6_39904x2	routing table
+T6_58239x1	routing table
+bgp4_in_AS199524x2	filter
+R4_10310x4	protocol
+on      	undefined
+pp6_as201594x1	protocol
+remote  	undefined
+bgp4_in_AS197197x2	filter
+T6_39906x1	routing table
+expire  	undefined
+bgp6_in_AS203072x1	filter
+T6_28972x1	routing table
+bgp6_in_AS201730x1	filter
+wait    	undefined
+bgp6_in_AS201811x1	filter
+T6_39817x1	routing table
+T4_59970x3	routing table
+bgp4_in_AS199803x3	filter
+T6_28972x2	routing table
+NIX_LC_FILTERED_TRANSIT_FREE_ASN	constant
+bgp6_in_AS201730x2	filter
+ipt_unspec	constant
+ms      	undefined
+T6_28892x1	routing table
+pp6_as205535x1	protocol
+T4_59970x4	routing table
+bgp4_in_AS199803x4	filter
+T6_46489x1	routing table
+T6_49931x1	routing table
+bgp6_in_AS202605x1	filter
+T6_46489x2	routing table
+ipp_xorp	constant
+bgp4_in_AS199490x2	filter
+T6_39790x1	routing table
+R6_59984x1	protocol
+pp4_as197046x2	protocol
+T6_48298x1	routing table
+T6_39790x2	routing table
+R6_59984x2	protocol
+pp6_as204860x1	protocol
+pp4_as197307x2	protocol
+T6_48298x2	routing table
+T6_39791x1	routing table
+bgp6_in_AS203165x1	filter
+R6_59959x1	protocol
+rpki    	undefined
+T6_39791x2	routing table
+bgp6_in_AS203165x2	filter
+pp4_as199330x2	protocol
+R4_42000x3	protocol
+myas    	constant
+pp6_as204772x1	protocol
+rs      	undefined
+R4_20144x2	protocol
+R4_42000x4	protocol
+import  	undefined
+R4_31042x1	protocol
+R6_10310x1	protocol
+T4_59984x3	routing table
+T6_28978x1	routing table
+T6_47868x1	routing table
+T4_59959x2	routing table
+R6_10310x2	protocol
+T6_47949x1	routing table
+T4_59984x4	routing table
+pp6_as208543x1	protocol
+R4_30134x3	protocol
+bgp4_in_AS199657x2	filter
+R4_21430x3	protocol
+bgp4_in_AS199298x3	filter
+R4_30134x4	protocol
+pp6_as206548x1	protocol
+R4_21430x4	protocol
+bgp4_in_AS199298x4	filter
+T6_59970x1	routing table
+bgp6_in_AS201594x1	filter
+R6_203072x1	protocol
+pp4_as197284x2	protocol
+R4_42005x2	protocol
+pp4_as198605x3	protocol
+R6_201730x1	protocol
+R6_201811x1	protocol
+T6_59970x2	routing table
+bgp4_in_AS197698x2	filter
+pp4_as198605x4	protocol
+R6_201730x2	protocol
+T4_10310x3	routing table
+pp4_as196762x1	protocol
+R4_204860x2	protocol
+pp4_as199524x2	protocol
+T4_201163x3	routing table
+T4_10310x4	routing table
+bgp6_in_AS205535x1	filter
+R6_202605x1	protocol
+R4_11284x1	protocol
+T4_201163x4	routing table
+R4_41206x2	protocol
+R4_20723x2	protocol
+pp4_as197197x2	protocol
+R4_204772x2	protocol
+R4_13335x2	protocol
+R4_10906x1	protocol
+bgp4_in_AS201053x2	filter
+bgp6_in_AS204860x1	filter
+R6_42000x1	protocol
+R6_203165x1	protocol
+pp4_as199803x3	protocol
+port    	undefined
+T4_203072x2	routing table
+R4_11644x2	protocol
+R6_42000x2	protocol
+R6_203165x2	protocol
+T4_201811x2	routing table
+R4_41046x2	protocol
+pp4_as199803x4	protocol
+T4_201730x3	routing table
+R4_12570x3	protocol
+T6_59984x1	routing table
+bgp6_in_AS204772x1	filter
+R4_208543x2	protocol
+T4_201730x4	routing table
+ipp_dhcp	constant
+R4_12570x4	protocol
+T6_59984x2	routing table
+T4_202605x2	routing table
+R4_206548x2	protocol
+T6_59959x1	routing table
+export  	undefined
+bgp6_in_AS208543x1	filter
+filtered	undefined
+password	undefined
+T4_203165x3	routing table
+ipp_bird	constant
+bgp6_in_AS206548x1	filter
+T4_203165x4	routing table
+T4_202921x1	routing table
+R6_201594x1	protocol
+T6_201053x1	routing table
+sorted  	undefined
+communities	undefined
+R6_205535x1	protocol
+T6_200155x1	routing table
+bgp4_in_AS8218x1	filter
+pp6_as8778x1	protocol
+T6_200155x2	routing table
+R4_197013x1	protocol
+T6_199490x1	routing table
+R4_201053x2	protocol
+T4_207153x1	routing table
+T6_201163x1	routing table
+R6_204860x1	protocol
+bgp4_in_AS7713x2	filter
+T6_201163x2	routing table
+T4_201594x2	routing table
+bgp4_in_AS8075x2	filter
+R6_204772x1	protocol
+R4_200155x3	protocol
+T4_205535x2	routing table
+R4_200155x4	protocol
+T6_203072x1	routing table
+pp4_as3216x1	protocol
+T6_201730x1	routing table
+T6_201811x1	routing table
+bgp4_in_AS6663x2	filter
+R4_201163x3	protocol
+T6_201730x2	routing table
+lladdr  	undefined
+master4 	routing table
+T4_204860x2	routing table
+R4_201163x4	protocol
+R6_208543x1	protocol
+T6_199298x1	routing table
+pp4_as1820x2	protocol
+T6_202605x1	routing table
+T6_199657x1	routing table
+T6_199298x2	routing table
+bgp4_in_AS8518x3	filter
+client  	undefined
+R6_206548x1	protocol
+master6 	routing table
+bgp4_in_AS8518x4	filter
+bgp4_in_AS5578x2	filter
+T4_204772x2	routing table
+R4_203072x2	protocol
+bgp4_in_AS8913x2	filter
+R4_201811x2	protocol
+T6_203165x1	routing table
+bgp4_in_AS6881x1	filter
+R4_201730x3	protocol
+T6_197698x1	routing table
+T6_203165x2	routing table
+R4_197046x2	protocol
+bgp4_in_AS6881x2	filter
+R4_201730x4	protocol
+bgp4_in_AS8646x1	filter
+router  	undefined
+R4_202605x2	protocol
+R4_197307x2	protocol
+base    	undefined
+T4_208543x2	routing table
+pp4_65253x1	protocol
+T4_206548x2	routing table
+R4_199330x2	protocol
+pp4_as5610x3	protocol
+bgp6_in_AS197046x1	filter
+pp4_as5610x4	protocol
+bgp4_in_AS6939x1	filter
+R4_203165x3	protocol
+ipp_boot	constant
+bgp6_in_AS197307x1	filter
+ipt_main	constant
+R4_203165x4	protocol
+R4_202921x1	protocol
+R6_201053x1	protocol
+bgp6_in_AS3216x2	filter
+bgp6_in_AS199330x1	filter
+bgp6_in_AS1820x1	filter
+T6_201594x1	routing table
+R6_200155x1	protocol
+R6_200155x2	protocol
+pp4_as2852x3	protocol
+T6_205535x1	routing table
+R4_197284x2	protocol
+R4_198605x3	protocol
+pp4_as2852x4	protocol
+R4_207153x1	protocol
+R6_201163x1	protocol
+pp4_as6507x1	protocol
+R4_198605x4	protocol
+T4_197013x1	routing table
+R6_201163x2	protocol
+R4_201594x2	protocol
+R4_196762x1	protocol
+pp4_as10310x3	protocol
+T4_201053x2	routing table
+pp4_as6461x2	protocol
+pp4_as8251x3	protocol
+T6_204860x1	routing table
+R4_199524x2	protocol
+pp6_as3216x2	protocol
+bgp6_in_AS5610x1	filter
+bgp6_in_AS198605x1	filter
+pp4_as10310x4	protocol
+pp6_as1820x1	protocol
+protocol	undefined
+bgp4_in_AS8778x2	filter
+pp4_as8251x4	protocol
+pp4_as8218x1	protocol
+bgp6_in_AS197284x1	filter
+bgp6_in_AS5610x2	filter
+bgp6_in_AS198605x2	filter
+R4_197197x2	protocol
+R4_205535x2	protocol
+bhgw    	constant
+T6_204772x1	routing table
+syslog  	undefined
+roat4   	routing table
+ips_link	constant
+T4_200155x3	routing table
+R4_199803x3	protocol
+bgp6_in_AS199524x1	filter
+pp4_as7713x2	protocol
+T4_200155x4	routing table
+rpki1   	protocol
+R4_199803x4	protocol
+pp4_as8075x2	protocol
+ipp_isis	constant
+R6_197046x1	protocol
+roat6   	routing table
+rpki2   	protocol
+bgp6_in_AS197197x1	filter
+R4_199490x2	protocol
+bgp6_in_AS199803x1	filter
+NIX_LC_FILTERED_IRRDB_ORIGIN_AS_FILTERED	constant
+R6_197307x1	protocol
+rpki3   	protocol
+T6_208543x1	routing table
+bgp6_in_AS199803x2	filter
+bgp6_in_AS2852x1	filter
+pp6_as5610x1	protocol
+rpki4   	protocol
+T6_206548x1	routing table
+R6_199330x1	protocol
+bgp6_in_AS2852x2	filter
+pp6_as5610x2	protocol
+pp4_as6663x2	protocol
+ips_global	constant
+bgp6_in_AS199490x1	filter
+pp4_as42000x3	protocol
+bgp6_in_AS8251x1	filter
+pp4_as20144x2	protocol
+pp4_as42000x4	protocol
+bgp6_in_AS6461x1	filter
+bgp6_in_AS8251x2	filter
+T4_197046x2	routing table
+pp4_as8518x3	protocol
+pp4_as31042x1	protocol
+pp4_as8518x4	protocol
+T4_197307x2	routing table
+pp4_as5578x2	protocol
+pp4_as8913x2	protocol
+define  	undefined
+pp4_as6881x1	protocol
+pp4_as30134x3	protocol
+pp6_as2852x1	protocol
+bgp6_in_AS8218x2	filter
+R4_199657x2	protocol
+T4_199330x2	routing table
+pp4_as21430x3	protocol
+R4_199298x3	protocol
+R6_198605x1	protocol
+bgp6_in_AS2686x1	filter
+pp4_as6881x2	protocol
+pp4_as30134x4	protocol
+pp6_as2852x2	protocol
+bgp6_in_AS7713x1	filter
+pp4_as8646x1	protocol
+pp4_as21430x4	protocol
+bgp6_in_AS8075x1	filter
+R4_199298x4	protocol
+R6_197284x1	protocol
+R6_198605x2	protocol
+pp4_as42005x2	protocol
+pp6_as8251x1	protocol
+bgp6_in_AS199298x1	filter
+R4_197698x2	protocol
+pp6_as6461x1	protocol
+neighbor	undefined
+ipp_kernel	constant
+bgp6_in_AS199657x1	filter
+multiplier	undefined
+pp6_as8251x2	protocol
+R6_199524x1	protocol
+bgp6_in_AS199298x2	filter
+pp4_as6939x1	protocol
+bgp6_in_AS6663x1	filter
+NIX_INFO_RPKI_INVALID	constant
+pp4_as11284x1	protocol
+R6_197197x1	protocol
+ips_host	constant
+R6_199803x1	protocol
+pp4_as41206x2	protocol
+pp4_as20723x2	protocol
+bgp6_in_AS197698x1	filter
+pp6_as8218x2	protocol
+R6_199803x2	protocol
+bgp6_in_AS8518x1	filter
+pp4_as13335x2	protocol
+pp6_as2686x1	protocol
+pp6_as10310x1	protocol
+pp4_as10906x1	protocol
+pp6_as7713x1	protocol
+T4_197284x2	routing table
+T4_198605x3	routing table
+bgp6_in_AS8518x2	filter
+pp6_as8075x1	protocol
+pp6_as10310x2	protocol
+NIX_LC_FILTERED_TRANSIT_FREE_ASN_BYPASS	constant
+T4_198605x4	routing table
+pp4_as11644x2	protocol
+T4_196762x1	routing table
+pp4_as41046x2	protocol
+R6_199490x1	protocol
+bgp6_in_AS5578x1	filter
+bgp6_in_AS8913x1	filter
+T4_199524x2	routing table
+pp4_as12570x3	protocol
+pp4_as31246x3	protocol
+bgp4_in_AS3216x1	filter
+pp4_as12570x4	protocol
+pp4_as20940x2	protocol
+pp4_as60501x2	protocol
+pp6_as6663x1	protocol
+T4_197197x2	routing table
+pp4_as31246x4	protocol
+pp4_as12850x1	protocol
+pp4_as43070x2	protocol
+pp4_as16019x3	protocol
+T4_199803x3	routing table
+pp4_as42306x3	protocol
+bgp6_in_AS6881x3	filter
+bgp4_in_AS1820x2	filter
+pp4_as16019x4	protocol
+pp6_as8518x1	protocol
+T4_199803x4	routing table
+pp4_as8778x2	protocol
+avoid_martians	function
+pp4_as42306x4	protocol
+ipp_dnrouted	constant
+bgp6_in_AS6881x4	filter
+pp4_as41711x3	protocol
+pp4_as22822x2	protocol
+pp4_as43413x1	protocol
+T6_197046x1	routing table
+pp4_as34080x3	protocol
+ips_nowhere	constant
+pp6_as8518x2	protocol
+pp4_as25234x3	protocol
+pp4_as15614x1	protocol
+T4_199490x2	routing table
+pp4_as41711x4	protocol
+pp4_as34080x4	protocol
+pp4_as25512x3	protocol
+T6_197307x1	routing table
+pp6_as5578x1	protocol
+pp4_as25234x4	protocol
+pp6_as8913x1	protocol
+pp4_as43037x3	protocol
+pp4_as25512x4	protocol
+NIX_INFO_RPKI_UNKNOWN	constant
+pp4_as51800x2	protocol
+R6_199298x1	protocol
+pp6_as42000x1	protocol
+pp4_as47110x3	protocol
+pp4_as43037x4	protocol
+R6_199657x1	protocol
+T6_199330x1	routing table
+bgp6_in_AS6939x2	filter
+pp4_as31349x2	protocol
+R6_199298x2	protocol
+refresh 	undefined
+pp6_as42000x2	protocol
+pp4_as25424x3	protocol
+pp4_as47110x4	protocol
+device  	undefined
+pp4_as25093x1	protocol
+NIX_INFO_RPKI_VALID	constant
+kernel1 	protocol
+pp6_as20144x1	protocol
+pp4_as43531x2	protocol
+pp4_as25424x4	protocol
+pp4_as16246x3	protocol
+pp4_as25093x2	protocol
+kernel2 	protocol
+pp6_as6881x3	protocol
+pp4_as26415x2	protocol
+pp4_as16246x4	protocol
+R6_197698x1	protocol
+bgp4_in_AS5610x3	filter
+pp6_as6881x4	protocol
+NIX_LC_FILTERED_AS_PATH_TOO_SHORT	constant
+pp6_as30134x1	protocol
+pp4_as15169x2	protocol
+pp4_as25192x3	protocol
+NIX_LC_FILTERED_PREFIX_LEN_TOO_SHORT	constant
+pp6_as21430x1	protocol
+pp6_as31042x2	protocol
+bgp4_in_AS5610x4	filter
+pp4_as30764x3	protocol
+pp4_as44522x2	protocol
+ipp_ntk 	constant
+pp4_as51248x2	protocol
+pp4_as32590x2	protocol
+pp4_as43541x3	protocol
+pp6_as30134x2	protocol
+NIX_LC_FILTERED_NEXT_HOP_NOT_PEER_IP	constant
+pp4_as35361x2	protocol
+pp4_as25192x4	protocol
+pp4_as35236x3	protocol
+action  	undefined
+pp6_as21430x2	protocol
+bug     	undefined
+pp4_as30764x4	protocol
+pp4_as24482x2	protocol
+pp4_as43541x4	protocol
+pp4_as35613x2	protocol
+pp4_as25248x3	protocol
+pp4_as35236x4	protocol
+T4_199657x2	routing table
+off     	undefined
+T4_199298x3	routing table
+T6_198605x1	routing table
+pp6_as6939x2	protocol
+pp4_as42473x2	protocol
+pp4_as25248x4	protocol
+pp4_as24806x3	protocol
+pp4_as16276x2	protocol
+pp4_as36351x3	protocol
+bgp6_in_AS8778x1	filter
+T4_199298x4	routing table
+T6_197284x1	routing table
+T6_198605x2	routing table
+pp4_as36236x2	protocol
+pp6_as42005x1	protocol
+pp4_as24806x4	protocol
+pp4_as42841x2	protocol
+pp4_as36351x4	protocol
+pp4_as29134x3	protocol
+T4_197698x2	routing table
+ipp_mrt 	constant
+NIX_LC_FILTERED_TOO_MANY_COMMUNITIES	constant
+pp4_as29208x1	protocol
+pp4_as29134x4	protocol
+T6_199524x1	routing table
+pp4_as47232x3	protocol
+bgp4_in_AS2852x3	filter
+pp4_as32934x3	protocol
+pp4_as43653x1	protocol
+pp4_as47232x4	protocol
+pp4_as29405x2	protocol
+bgp4_in_AS2852x4	filter
+pp6_as41206x1	protocol
+pp4_as44185x2	protocol
+pp4_as32934x4	protocol
+bgp4_in_AS6507x1	filter
+direct  	undefined
+pp6_as20723x1	protocol
+T6_197197x1	routing table
+limit   	undefined
+pp4_as29504x2	protocol
+T6_199803x1	routing table
+pp4_as43708x2	protocol
+pp6_as13335x1	protocol
+bgp4_in_AS6461x2	filter
+bgp4_in_AS8251x3	filter
+T6_199803x2	routing table
+pp4_as15935x3	protocol
+pp4_as43709x2	protocol
+pp6_as11644x1	protocol
+bgp4_in_AS8251x4	filter
+log     	undefined
+pp4_as42908x2	protocol
+pp4_as49142x1	protocol
+pp6_as41046x1	protocol
+pp6_as12570x1	protocol
+pp4_as15935x4	protocol
+pp4_as42477x3	protocol
+pp6_as31246x1	protocol
+pp6_as12570x2	protocol
+pp4_as42477x4	protocol
+pp4_as15685x3	protocol
+pp4_as49206x2	protocol
+pp6_as31246x2	protocol
+pp4_as24971x3	protocol
+pp6_as20940x1	protocol
+pp6_as60501x1	protocol
+ipr_cosmos	constant
+pp6_as16019x1	protocol
+pp4_as15685x4	protocol
+ipp_babel	constant
+pp4_as61296x3	protocol
+pp4_as24971x4	protocol
+pp6_as42306x1	protocol
+pp4_as50695x2	protocol
+pp6_as43070x1	protocol
+pp4_as33891x2	protocol
+pp6_as16019x2	protocol
+pp4_as56344x2	protocol
+pp4_as61296x4	protocol
+pp6_as42306x2	protocol
+pp6_as41711x1	protocol
+pp4_as29086x2	protocol
+pp6_as34080x1	protocol
+pp4_as60890x2	protocol
+pp6_as25234x1	protocol
+pp4_as35592x3	protocol
+pp6_as41711x2	protocol
+pp6_as22822x1	protocol
+pp6_as34080x2	protocol
+pp6_as25512x1	protocol
+pp6_as25234x2	protocol
+pp4_as35592x4	protocol
+pp4_as48451x2	protocol
+pp6_as43037x1	protocol
+pp4_as28725x3	protocol
+pp6_as25512x2	protocol
+pp4_as34955x1	protocol
+pp6_as47110x1	protocol
+pp6_as43037x2	protocol
+pp4_as28725x4	protocol
+pp6_as51800x1	protocol
+iso     	undefined
+pp6_as15614x2	protocol
+pp6_as25424x1	protocol
+pp6_as47110x2	protocol
+pp4_as48417x3	protocol
+pp6_as31349x1	protocol
+where   	undefined
+pp4_as28851x3	protocol
+pp4_as50698x3	protocol
+pp6_as25424x2	protocol
+pp6_as16246x1	protocol
+pp4_as48417x4	protocol
+pp4_as28851x4	protocol
+pp6_as43531x1	protocol
+pp4_as50698x4	protocol
+pp4_as36692x2	protocol
+pp6_as16246x2	protocol
+bgp4_in_AS10310x3	filter
+pp4_as56456x1	protocol
+pp6_as26415x1	protocol
+error   	undefined
+pp6_as25192x1	protocol
+bgp4_in_AS10310x4	filter
+pp4_as44489x2	protocol
+pp4_as29583x1	protocol
+ipp_redirect	constant
+pp6_as30764x1	protocol
+pp6_as43541x1	protocol
+pp4_as57463x2	protocol
+pp6_as15169x1	protocol
+pp6_as25192x2	protocol
+pp6_as35236x1	protocol
+pp6_as30764x2	protocol
+pp6_as44522x1	protocol
+pp6_as51248x1	protocol
+pp6_as32590x1	protocol
+pp6_as43541x2	protocol
+pp6_as35361x1	protocol
+pp6_as25248x1	protocol
+pp6_as35236x2	protocol
+pp4_as39904x3	protocol
+pp4_as58239x2	protocol
+missing 	undefined
+pp6_as24482x1	protocol
+pp6_as35613x1	protocol
+pp6_as25248x2	protocol
+pp6_as24806x1	protocol
+pp6_as36351x1	protocol
+pp4_as39904x4	protocol
+pp6_as42473x1	protocol
+R4_3216x1	protocol
+pp6_as24806x2	protocol
+pp6_as16276x1	protocol
+pp6_as36351x2	protocol
+pp6_as29134x1	protocol
+pp6_as36236x1	protocol
+NIX_LC_FILTERED_IRRDB_ORIGIN_AS_FILTERED_BYPASS	constant
+pp4_as39906x2	protocol
+pp6_as42841x1	protocol
+pp6_as29134x2	protocol
+pp4_as39817x2	protocol
+warning 	undefined
+pp6_as47232x1	protocol
+pp4_as28972x3	protocol
+pp6_as32934x1	protocol
+pp4_as57279x1	protocol
+pp4_as28892x2	protocol
+R4_1820x2	protocol
+pp6_as47232x2	protocol
+pp4_as28972x4	protocol
+pp4_as49931x2	protocol
+pp6_as32934x2	protocol
+pp6_as29405x1	protocol
+pp4_as46489x3	protocol
+pp6_as44185x1	protocol
+yes     	undefined
+pp4_as46489x4	protocol
+pp6_as29504x1	protocol
+bgp4_in_AS42000x3	filter
+pp6_as43708x1	protocol
+interpret	undefined
+pp4_as39790x3	protocol
+pp6_as15935x1	protocol
+pp4_as48298x3	protocol
+bgp4_in_AS20144x2	filter
+bgp4_in_AS42000x4	filter
+f_export_to_master	filter
+pp4_as39790x4	protocol
+pp6_as15935x2	protocol
+pp6_as42477x1	protocol
+pp6_as43709x1	protocol
+bgp4_in_AS31042x1	filter
+pp4_as48298x4	protocol
+pp4_as39791x3	protocol
+pp6_as42908x1	protocol
+pp6_as42477x2	protocol
+pp6_as15685x1	protocol
+pp4_as48298x5	protocol
+pp4_as39791x4	protocol
+pp6_as24971x1	protocol
+pp6_as15685x2	protocol
+pp4_as48298x6	protocol
+pp6_as49206x1	protocol
+pp6_as61296x1	protocol
+disabled	undefined
+bgp4_in_AS30134x3	filter
+pp6_as24971x2	protocol
+pp4_as38949x1	protocol
+pp6_as65253x1	protocol
+bgp4_in_AS21430x3	filter
+R4_5610x3	protocol
+bgp_out_comm	function
+pp6_as61296x2	protocol
+bgp4_in_AS30134x4	filter
+pp6_as50695x1	protocol
+interface	undefined
+pp4_as28978x2	protocol
+pp6_as33891x1	protocol
+bgp4_in_AS21430x4	filter
+pp6_as56344x1	protocol
+R4_5610x4	protocol
+pp6_as35592x1	protocol
+pp4_as47868x2	protocol
+pp4_as47949x2	protocol
+pp6_as29086x1	protocol
+ipt_local	constant
+pp6_as60890x1	protocol
+bgp4_in_AS42005x2	filter
+pp6_as35592x2	protocol
+R6_3216x2	protocol
+pp6_as28725x1	protocol
+R6_1820x1	protocol
+pp6_as48451x1	protocol
+pp6_as28725x2	protocol
+T4_3216x1	routing table
+pp6_as48417x1	protocol
+bgp4_in_AS11284x1	filter
+pp6_as28851x1	protocol
+ipp_bgp 	constant
+pp4_as59970x3	protocol
+pp6_as50698x1	protocol
+pp6_as48417x2	protocol
+bgp4_in_AS41206x2	filter
+pp6_as28851x2	protocol
+bgp4_in_AS20723x2	filter
+pp4_as59970x4	protocol
+pp6_as50698x2	protocol
+R4_2852x3	protocol
+bgp4_in_AS13335x2	filter
+bgp4_in_AS10906x1	filter
+T4_1820x2	routing table
+pp6_as36692x1	protocol
+R4_2852x4	protocol
+retry   	undefined
+R4_6507x1	protocol
+bgp4_in_AS11644x2	filter
+bgp4_in_AS41046x2	filter
+pp6_as44489x1	protocol
+R4_6461x2	protocol
+R6_5610x1	protocol
+R4_8251x3	protocol
+pp6_as57463x1	protocol
+filter_has_transit_path	function
+ipp_zebra	constant
+bgp4_in_AS12570x3	filter
+pp6_as39904x1	protocol
+R6_5610x2	protocol
+R4_8251x4	protocol
+R4_8218x1	protocol
+bgp4_in_AS31246x3	filter
+bgp4_in_AS20940x2	filter
+bgp4_in_AS12570x4	filter
+bgp4_in_AS60501x2	filter
+pp6_as39904x2	protocol
+pp6_as58239x1	protocol
+bgp4_in_AS31246x4	filter
+bgp4_in_AS12850x1	filter
+euroix_rtbh	constant
+bgp4_in_AS43070x2	filter
+ipp_gated	constant
+bgp4_in_AS16019x3	filter
+bgp4_in_AS42306x3	filter
+route   	undefined
+rpki_input_filter	function
+R4_7713x2	protocol
+bgp4_in_AS16019x4	filter
+pp6_as39906x1	protocol
+pp6_as28972x1	protocol
+R4_8075x2	protocol
+bgp4_in_AS42306x4	filter
+pp4_as59984x3	protocol
+bgp4_in_AS41711x3	filter
+bgp4_in_AS22822x2	filter
+bgp4_in_AS43413x1	filter
+bgp4_in_AS34080x3	filter
+T4_5610x3	routing table
+pp6_as39817x1	protocol
+pp6_as28972x2	protocol
+bgp4_in_AS25234x3	filter
+pp4_as59959x2	protocol
+bgp4_in_AS15614x1	filter
+pp4_as59984x4	protocol
+bgp4_in_AS41711x4	filter
+bfd     	undefined
+pp6_as28892x1	protocol
+bgp4_in_AS34080x4	filter
+bgp4_in_AS25512x3	filter
+T4_5610x4	routing table
+pp6_as46489x1	protocol
+bgp4_in_AS25234x4	filter
+pp6_as49931x1	protocol
+R6_2852x1	protocol
+bgp4_in_AS43037x3	filter
+bgp4_in_AS25512x4	filter
+bgp4_in_AS51800x2	filter
+pp6_as46489x2	protocol
+T6_3216x2	routing table
+R6_2852x2	protocol
+bgp4_in_AS47110x3	filter
+pp6_as39790x1	protocol
+bgp4_in_AS43037x4	filter
+bgp4_in_AS31349x2	filter
+T6_1820x1	routing table
+pp6_as48298x1	protocol
+R4_6663x2	protocol
+bgp4_in_AS25424x3	filter
+bgp4_in_AS47110x4	filter
+pp6_as39790x2	protocol
+bgp4_in_AS25093x1	filter
+pp6_as48298x2	protocol
+pp6_as39791x1	protocol
+R6_8251x1	protocol
+bgp4_in_AS43531x2	filter
+bgp4_in_AS25424x4	filter
+bgp4_in_AS16246x3	filter
+bgp4_in_AS25093x2	filter
+R6_6461x1	protocol
+table   	undefined
+pp6_as39791x2	protocol
+R6_8251x2	protocol
+bgp4_in_AS26415x2	filter
+bgp4_in_AS16246x4	filter
+R4_8518x3	protocol
+T4_2852x3	routing table
+bgp4_in_AS15169x2	filter
+bgp4_in_AS25192x3	filter
+R4_8518x4	protocol
+bgp4_in_AS30764x3	filter
+bgp4_in_AS44522x2	filter
+bgp4_in_AS51248x2	filter
+R4_5578x2	protocol
+bgp4_in_AS32590x2	filter
+bgp4_in_AS43541x3	filter
+local   	undefined
+T4_2852x4	routing table
+R4_8913x2	protocol
+bgp4_in_AS35361x2	filter
+bgp4_in_AS25192x4	filter
+bgp4_in_AS35236x3	filter
+T4_6507x1	routing table
+bgp4_in_AS30764x4	filter
+R6_8218x2	protocol
+bgp4_in_AS24482x2	filter
+bgp4_in_AS43541x4	filter
+R4_6881x1	protocol
+bgp4_in_AS35613x2	filter
+bgp4_in_AS25248x3	filter
+R6_2686x1	protocol
+bgp4_in_AS35236x4	filter
+pp6_as28978x1	protocol
+T4_6461x2	routing table
+R6_7713x1	protocol
+T6_5610x1	routing table
+T4_8251x3	routing table
+R4_6881x2	protocol
+pp6_as47868x1	protocol
+R6_8075x1	protocol
+pp6_as47949x1	protocol
+R4_8646x1	protocol
+bgp4_in_AS42473x2	filter
+bgp4_in_AS25248x4	filter
+bgp4_in_AS24806x3	filter
+bgp4_in_AS16276x2	filter
+bgp4_in_AS36351x3	filter
+T6_5610x2	routing table
+bgp4_in_AS36236x2	filter
+T4_8251x4	routing table
+T4_8218x1	routing table
+bgp4_in_AS24806x4	filter
+bgp4_in_AS42841x2	filter
+bgp4_in_AS36351x4	filter
+bgp4_in_AS29134x3	filter
+bgp4_in_AS29208x1	filter
+bgp4_in_AS29134x4	filter
+pp6_as59970x1	protocol
+bgp4_in_AS47232x3	filter
+bgp4_in_AS32934x3	filter
+T4_7713x2	routing table
+bgp4_in_AS43653x1	filter
+R6_6663x1	protocol
+pp6_as59970x2	protocol
+bgp4_in_AS47232x4	filter
+bgp4_in_AS29405x2	filter
+R4_6939x1	protocol
+T4_8075x2	routing table
+bgp     	undefined
+bgp4_in_AS44185x2	filter
+bgp4_in_AS32934x4	filter
+all     	undefined
+bgp4_in_AS29504x2	filter
+bgp4_in_AS43708x2	filter
+R6_8518x1	protocol
+T6_2852x1	routing table
+bgp4_in_AS15935x3	filter
+R6_8518x2	protocol
+ipp_eigrp	constant
+bgp4_in_AS43709x2	filter
+bgp4_in_AS42908x2	filter
+T6_2852x2	routing table
+bgp4_in_AS49142x1	filter
+bgp4_in_AS15935x4	filter
+bgp4_in_AS42477x3	filter
+R6_5578x1	protocol
+T4_6663x2	routing table
+R6_8913x1	protocol
+bgp4_in_AS42477x4	filter
+bgp6_in_AS10310x1	filter
+bgp4_in_AS15685x3	filter
+T6_8251x1	routing table
+bgp4_in_AS49206x2	filter
+bgp4_in_AS24971x3	filter
+T6_6461x1	routing table
+ipp_rip 	constant
+bgp6_in_AS10310x2	filter
+bgp4_in_AS15685x4	filter
+T6_8251x2	routing table
+bgp4_in_AS61296x3	filter
+bgp4_in_AS24971x4	filter
+bgp4_in_AS50695x2	filter
+bgp4_in_AS33891x2	filter
+T4_8518x3	routing table
+bgp4_in_AS56344x2	filter
+bgp4_in_AS61296x4	filter
+pp6_as59984x1	protocol
+bgp4_in_AS29086x2	filter
+T4_8518x4	routing table
+bgp4_in_AS60890x2	filter
+R6_6881x3	protocol
+T4_5578x2	routing table
+bgp4_in_AS35592x3	filter
+T4_8913x2	routing table
+pp6_as59984x2	protocol
+NIX_LC_FILTERED_FIRST_AS_NOT_PEER_AS	constant
+R6_6881x4	protocol
+T6_8218x2	routing table
+T4_6881x1	routing table
+bgp4_in_AS35592x4	filter
+bgp4_in_AS48451x2	filter
+R4_8778x2	protocol
+pp6_as59959x1	protocol
+T6_2686x1	routing table
+bgp4_in_AS28725x3	filter
+T6_7713x1	routing table
+bgp4_in_AS34955x1	filter
+T4_6881x2	routing table
+T6_8075x1	routing table
+T4_8646x1	routing table
+bgp4_in_AS28725x4	filter
+avoid_martians6	function
+bgp4_in_AS48417x3	filter
+device1 	protocol
+bgp4_in_AS28851x3	filter
+bgp4_in_AS50698x3	filter
+R6_6939x2	protocol
+bgp4_in_AS48417x4	filter
+bgp4_in_AS28851x4	filter
+bgp4_in_AS50698x4	filter
+bgp4_in_AS36692x2	filter
+bgp4_in_AS56456x1	filter
+T6_6663x1	routing table
+T4_6939x1	routing table
+bgp6_in_AS42000x1	filter
+bgp4_in_AS44489x2	filter
+NIX_LC_FILTERED_IRRDB_PREFIX_FILTERED	constant
+bgp4_in_AS29583x1	filter
+bgp4_in_AS57463x2	filter
+bgp6_in_AS42000x2	filter
+T6_8518x1	routing table
+debug   	undefined
+bgp6_in_AS20144x1	filter
+NIX_LC_FILTERED_BOGON_ASN	constant
+NIX_LC_FILTERED_IRRDB_PREFIX_FILTERED_BYPASS	constant
+T6_8518x2	routing table
+bgp4_in_AS39904x3	filter
+bgp4_in_AS58239x2	filter
+bgp4_in_AS39904x4	filter
+T6_5578x1	routing table
+T6_8913x1	routing table
+bgp6_in_AS30134x1	filter
+bgp4_in_AS39906x2	filter
+bgp6_in_AS21430x1	filter
+bgp6_in_AS31042x2	filter
+R6_8778x1	protocol
+bgp6_in_AS30134x2	filter
+bgp4_in_AS39817x2	filter
+bgp6_in_AS21430x2	filter
+bgp4_in_AS28972x3	filter
+bgp4_in_AS57279x1	filter
+bgp4_in_AS28892x2	filter
+bgp4_in_AS28972x4	filter
+bgp4_in_AS49931x2	filter
+fatal   	undefined
+T6_6881x3	routing table
+bgp4_in_AS46489x3	filter
+bgp6_in_AS42005x1	filter
+ddpas   	constant
+secondary	undefined
+T6_6881x4	routing table
+bgp4_in_AS46489x4	filter
+T4_8778x2	routing table
+bgp4_in_AS39790x3	filter
+ipt_default	constant
+bgp4_in_AS48298x3	filter
+bgp4_in_AS39790x4	filter
+bgp4_in_AS39791x3	filter
+bgp4_in_AS48298x4	filter
+direct1 	protocol
+bgp6_in_AS41206x1	filter
+bgp4_in_AS39791x4	filter
+bgp4_in_AS48298x5	filter
+T6_6939x2	routing table
+bgp6_in_AS20723x1	filter
+bgp6_in_AS13335x1	filter
+R6_20144x1	protocol
+bgp4_in_AS48298x6	filter
+block   	undefined
+bgp4_in_AS38949x1	filter
+pp4_as199490x2	protocol
+R4_31246x3	protocol
+bgp6_in_AS11644x1	filter
+bgp4_in_AS200155x3	filter
+R4_20940x2	protocol
+R4_60501x2	protocol
+bgp6_in_AS41046x1	filter
+bgp4_in_AS28978x2	filter
+NIX_LC_FILTERED_AS_PATH_TOO_LONG	constant
+bgp6_in_AS12570x1	filter
+NIX_LC_FILTERED_PREFIX_LEN_TOO_LONG	constant
+R6_30134x1	protocol
+R4_31246x4	protocol
+R4_12850x1	protocol
+bgp4_in_AS47868x2	filter
+bgp4_in_AS200155x4	filter
+bgp4_in_AS47949x2	filter
+R4_43070x2	protocol
+bgp6_in_AS31246x1	filter
+R6_21430x1	protocol
+R6_31042x2	protocol
+bgp6_in_AS12570x2	filter
+R4_16019x3	protocol
+R6_30134x2	protocol
+R4_42306x3	protocol
+bgp4_in_AS201163x3	filter
+bgp6_in_AS31246x2	filter
+latency 	undefined
+R6_21430x2	protocol
+bgp6_in_AS20940x1	filter
+R4_16019x4	protocol
+bgp6_in_AS60501x1	filter
+T4_42000x3	routing table
+bgp6_in_AS16019x1	filter
+R4_42306x4	protocol
+R4_41711x3	protocol
+bgp4_in_AS201163x4	filter
+R4_22822x2	protocol
+R4_43413x1	protocol
+R4_34080x3	protocol
+bgp6_in_AS42306x1	filter
+T4_20144x2	routing table
+T4_42000x4	routing table
+bgp6_in_AS43070x1	filter
+R4_25234x3	protocol
+bgp6_in_AS16019x2	filter
+R4_15614x1	protocol
+R4_41711x4	protocol
+R65253x1	protocol
+R4_34080x4	protocol
+R4_25512x3	protocol
+bgp6_in_AS42306x2	filter
+T4_31042x1	routing table
+bgp6_in_AS41711x1	filter
+R6_42005x1	protocol
+bgp6_in_AS34080x1	filter
+R4_25234x4	protocol
+T6_8778x1	routing table
+bgp4_in_AS59970x3	filter
+T6_10310x1	routing table
+bgp6_in_AS25234x1	filter
+R4_43037x3	protocol
+R4_25512x4	protocol
+R4_51800x2	protocol
+bgp6_in_AS41711x2	filter
+bgp6_in_AS22822x1	filter
+bgp6_in_AS34080x2	filter
+bgp6_in_AS25512x1	filter
+ddpgw   	constant
+bgp4_in_AS203072x2	filter
+bgp4_in_AS59970x4	filter
+R4_47110x3	protocol
+T6_10310x2	routing table
+bgp6_in_AS25234x2	filter
+bgp4_in_AS201811x2	filter
+R4_43037x4	protocol
+R4_31349x2	protocol
+bgp6_in_AS43037x1	filter
+bgp6_in_AS25512x2	filter
+T4_30134x3	routing table
+R4_25424x3	protocol
+R4_47110x4	protocol
+bgp4_in_AS201730x3	filter
+R4_25093x1	protocol
+T4_21430x3	routing table
+pp4_as199657x2	protocol
+bgp6_in_AS47110x1	filter
+roa4    	undefined
+bgp6_in_AS43037x2	filter
+pp4_as199298x3	protocol
+T4_30134x4	routing table
+R4_43531x2	protocol
+bgp6_in_AS51800x1	filter
+R4_25424x4	protocol
+bgp4_in_AS201730x4	filter
+R4_16246x3	protocol
+R6_41206x1	protocol
+R4_25093x2	protocol
+bgp6_in_AS15614x2	filter
+T4_21430x4	routing table
+bgp6_in_AS47110x2	filter
+bgp6_in_AS25424x1	filter
+R6_20723x1	protocol
+bgp4_in_AS202605x2	filter
+pp4_as199298x4	protocol
+sanitize_community	constant
+bgp6_in_AS31349x1	filter
+R4_26415x2	protocol
+R4_16246x4	protocol
+R6_13335x1	protocol
+bgp6_in_AS25424x2	filter
+roa6    	undefined
+bgp6_in_AS16246x1	filter
+T4_42005x2	routing table
+R4_15169x2	protocol
+pp6_as197046x1	protocol
+bgp6_in_AS43531x1	filter
+R4_25192x3	protocol
+bgp6_in_AS16246x2	filter
+pp4_as197698x2	protocol
+R4_30764x3	protocol
+R4_44522x2	protocol
+R4_51248x2	protocol
+R6_11644x1	protocol
+R4_32590x2	protocol
+R4_43541x3	protocol
+R4_35361x2	protocol
+R6_41046x1	protocol
+R4_25192x4	protocol
+R6_12570x1	protocol
+R4_35236x3	protocol
+bgp6_in_AS26415x1	filter
+pp6_as197307x1	protocol
+R4_30764x4	protocol
+bgp6_in_AS25192x1	filter
+R4_24482x2	protocol
+R4_43541x4	protocol
+R4_35613x2	protocol
+bgp6_in_AS30764x1	filter
+R6_31246x1	protocol
+bgp4_in_AS203165x3	filter
+bgp6_in_AS43541x1	filter
+R4_25248x3	protocol
+R6_12570x2	protocol
+R4_35236x4	protocol
+bgp6_in_AS15169x1	filter
+T4_11284x1	routing table
+bgp6_in_AS25192x2	filter
+bgp6_in_AS35236x1	filter
+bgp6_in_AS30764x2	filter
+pp6_as199330x1	protocol
+R6_31246x2	protocol
+bgp6_in_AS44522x1	filter
+bgp4_in_AS203165x4	filter
+bgp6_in_AS51248x1	filter
+T4_41206x2	routing table
+bgp6_in_AS32590x1	filter
+bgp6_in_AS43541x2	filter
+R6_20940x1	protocol
+R4_42473x2	protocol
+R4_25248x4	protocol
+R4_24806x3	protocol
+bgp4_in_AS202921x1	filter
+R4_16276x2	protocol
+bgp4_in_AS59984x3	filter
+R6_60501x1	protocol
+R4_36351x3	protocol
+bgp6_in_AS35361x1	filter
+T4_20723x2	routing table
+bgp6_in_AS25248x1	filter
+R4_36236x2	protocol
+bgp6_in_AS35236x2	filter
+R6_16019x1	protocol
+bgp6_in_AS24482x1	filter
+T4_13335x2	routing table
+bgp4_in_AS59959x2	filter
+R4_24806x4	protocol
+R6_42306x1	protocol
+bgp4_in_AS59984x4	filter
+T4_10906x1	routing table
+bgp6_in_AS35613x1	filter
+R4_42841x2	protocol
+R4_36351x4	protocol
+R6_43070x1	protocol
+bgp6_in_AS25248x2	filter
+R4_29134x3	protocol
+bgp6_in_AS24806x1	filter
+R6_16019x2	protocol
+bgp6_in_AS36351x1	filter
+T6_42000x1	routing table
+pp4_as201053x2	protocol
+R6_42306x2	protocol
+R6_41711x1	protocol
+R6_34080x1	protocol
+R4_29208x1	protocol
+bgp6_in_AS42473x1	filter
+R4_29134x4	protocol
+bgp6_in_AS24806x2	filter
+bgp6_in_AS16276x1	filter
+T4_11644x2	routing table
+bgp6_in_AS36351x2	filter
+T6_42000x2	routing table
+R4_47232x3	protocol
+R6_25234x1	protocol
+bgp6_in_AS29134x1	filter
+bgp6_in_AS36236x1	filter
+T4_41046x2	routing table
+R6_41711x2	protocol
+R4_32934x3	protocol
+R6_22822x1	protocol
+R6_34080x2	protocol
+R6_25512x1	protocol
+R4_43653x1	protocol
+T6_20144x1	routing table
+bgp6_in_AS42841x1	filter
+ipv4    	undefined
+R4_47232x4	protocol
+R4_29405x2	protocol
+R6_25234x2	protocol
+bgp6_in_AS29134x2	filter
+T4_12570x3	routing table
+R4_44185x2	protocol
+bgp6_in_AS47232x1	filter
+R4_32934x4	protocol
+R6_43037x1	protocol
+R6_25512x2	protocol
+bgp6_in_AS32934x1	filter
+R4_29504x2	protocol
+T4_31246x3	routing table
+R4_43708x2	protocol
+T4_20940x2	routing table
+T4_12570x4	routing table
+R6_47110x1	protocol
+T4_60501x2	routing table
+bgp6_in_AS47232x2	filter
+R6_43037x2	protocol
+pp4_as200155x3	protocol
+bgp4_in_AS207153x1	filter
+R6_51800x1	protocol
+bgp6_in_AS32934x2	filter
+ipv6    	undefined
+T6_30134x1	routing table
+T4_31246x4	routing table
+T4_12850x1	routing table
+R6_15614x2	protocol
+R6_25424x1	protocol
+R6_47110x2	protocol
+bgp6_in_AS29405x1	filter
+pp4_as200155x4	protocol
+T4_43070x2	routing table
+pp6_as198605x1	protocol
+R4_15935x3	protocol
+bgp4_in_AS201594x2	filter
+R6_31349x1	protocol
+T6_21430x1	routing table
+T6_31042x2	routing table
+T4_16019x3	routing table
+R4_43709x2	protocol
+bgp6_in_AS44185x1	filter
+T6_30134x2	routing table
+R4_42908x2	protocol
+T4_42306x3	routing table
+R4_49142x1	protocol
+R6_25424x2	protocol
+R6_16246x1	protocol
+pp6_as197284x1	protocol
+pp6_as198605x2	protocol
+bgp6_in_AS29504x1	filter
+R4_15935x4	protocol
+bgp6_in_AS43708x1	filter
+T6_21430x2	routing table
+R4_42477x3	protocol
+T4_16019x4	routing table
+pp4_as201163x3	protocol
+bgp6_in_AS15935x1	filter
+R6_43531x1	protocol
+T4_42306x4	routing table
+R6_16246x2	protocol
+T4_41711x3	routing table
+T4_22822x2	routing table
+T4_43413x1	routing table
+T4_34080x3	routing table
+R4_42477x4	protocol
+R4_65253x1	protocol
+pp4_as201163x4	protocol
+R4_15685x3	protocol
+bgp6_in_AS15935x2	filter
+T4_25234x3	routing table
+R4_49206x2	protocol
+bgp6_in_AS42477x1	filter
+bgp6_in_AS43709x1	filter
+T4_15614x1	routing table
+R6_26415x1	protocol
+R4_24971x3	protocol
+bgp4_in_AS205535x2	filter
+T4_41711x4	routing table
+bgp6_in_AS42908x1	filter
+T4_34080x4	routing table
+R6_25192x1	protocol
+T4_25512x3	routing table
+pp6_as199524x1	protocol
+R6_30764x1	protocol
+R4_15685x4	protocol
+T6_42005x1	routing table
+T4_25234x4	routing table
+bgp6_in_AS42477x2	filter
+R6_43541x1	protocol
+R4_61296x3	protocol
+R4_24971x4	protocol
+R6_15169x1	protocol
+bgp6_in_AS15685x1	filter
+R4_50695x2	protocol
+T4_43037x3	routing table
+R6_25192x2	protocol
+T4_25512x4	routing table
+R6_35236x1	protocol
+bgp6_in_AS24971x1	filter
+T4_51800x2	routing table
+R4_33891x2	protocol
+R6_30764x2	protocol
+R4_56344x2	protocol
+R6_44522x1	protocol
+R6_51248x1	protocol
+R6_32590x1	protocol
+R6_43541x2	protocol
+R4_61296x4	protocol
+T4_47110x3	routing table
+pp4_as203072x2	protocol
+bgp6_in_AS15685x2	filter
+R6_35361x1	protocol
+T4_43037x4	routing table
+bgp6_in_AS49206x1	filter
+R6_25248x1	protocol
+R4_29086x2	protocol
+T4_31349x2	routing table
+R6_35236x2	protocol
+bgp6_in_AS61296x1	filter
+pp6_as197197x1	protocol
+pp4_as201811x2	protocol
+bgp6_in_AS24971x2	filter
+pp6_as199803x1	protocol
+R4_60890x2	protocol
+R6_24482x1	protocol
+bgp4_in_AS204860x2	filter
+R4_35592x3	protocol
+R6_35613x1	protocol
+T4_25424x3	routing table
+T4_47110x4	routing table
+R6_25248x2	protocol
+T4_25093x1	routing table
+R6_24806x1	protocol
+pp4_as201730x3	protocol
+bgp6_in_AS61296x2	filter
+R6_36351x1	protocol
+bgp6_in_AS50695x1	filter
+pp6_as199803x2	protocol
+T4_43531x2	routing table
+R4_35592x4	protocol
+bgp6_in_AS33891x1	filter
+R4_48451x2	protocol
+T4_25424x4	routing table
+bgp6_in_AS56344x1	filter
+T4_16246x3	routing table
+T6_41206x1	routing table
+R6_42473x1	protocol
+T4_25093x2	routing table
+R6_24806x2	protocol
+pp4_as201730x4	protocol
+R6_16276x1	protocol
+bgp6_in_AS35592x1	filter
+R6_36351x2	protocol
+R4_28725x3	protocol
+T6_20723x1	routing table
+R6_29134x1	protocol
+bgp6_in_AS29086x1	filter
+R4_34955x1	protocol
+R6_36236x1	protocol
+pp4_as202605x2	protocol
+T4_26415x2	routing table
+T4_16246x4	routing table
+bgp6_in_AS60890x1	filter
+T6_13335x1	routing table
+bgp6_in_AS35592x2	filter
+R6_42841x1	protocol
+R4_28725x4	protocol
+bgp4_in_AS204772x2	filter
+R6_29134x2	protocol
+pp6_as199490x1	protocol
+bgp6_in_AS28725x1	filter
+R6_47232x1	protocol
+T4_15169x2	routing table
+T4_25192x3	routing table
+R4_48417x3	protocol
+bgp6_in_AS48451x1	filter
+R6_32934x1	protocol
+T4_30764x3	routing table
+T4_44522x2	routing table
+T4_51248x2	routing table
+T6_11644x1	routing table
+T4_32590x2	routing table
+T4_43541x3	routing table
+R4_28851x3	protocol
+bgp6_in_AS28725x2	filter
+R4_50698x3	protocol
+R6_47232x2	protocol
+T4_35361x2	routing table
+T6_41046x1	routing table
+T4_25192x4	routing table
+T6_12570x1	routing table
+R4_48417x4	protocol
+T4_35236x3	routing table
+R6_32934x2	protocol
+T4_30764x4	routing table
+bgp6_in_AS48417x1	filter
+T4_24482x2	routing table
+T4_43541x4	routing table
+R4_28851x4	protocol
+R4_50698x4	protocol
+T4_35613x2	routing table
+R4_36692x2	protocol
+R6_29405x1	protocol
+ipp_static	constant
+T6_31246x1	routing table
+bgp6_in_AS28851x1	filter
+T4_25248x3	routing table
+T6_12570x2	routing table
+T4_35236x4	routing table
+R6_44185x1	protocol
+bgp6_in_AS50698x1	filter
+pp4_as203165x3	protocol
+R4_56456x1	protocol
+bgp6_in_AS48417x2	filter
+R6_29504x1	protocol
+T6_31246x2	routing table
+bgp4_in_AS208543x2	filter
+R6_43708x1	protocol
+T6_20940x1	routing table
+T4_42473x2	routing table
+bgp6_in_AS28851x2	filter
+T4_25248x4	routing table
+T4_24806x3	routing table
+T4_16276x2	routing table
+bgp6_in_AS50698x2	filter
+T6_60501x1	routing table
+T4_36351x3	routing table
+pp4_as203165x4	protocol
+R4_44489x2	protocol
+pp4_as202921x1	protocol
+R6_15935x1	protocol
+R4_29583x1	protocol
+T4_36236x2	routing table
+T6_16019x1	routing table
+R4_57463x2	protocol
+T4_24806x4	routing table
+T6_42306x1	routing table
+bgp4_in_AS206548x2	filter
+T4_42841x2	routing table
+bgp6_in_AS36692x1	filter
+T4_36351x4	routing table
+T6_43070x1	routing table
+R6_15935x2	protocol
+T4_29134x3	routing table
+R6_42477x1	protocol
+T6_16019x2	routing table
+R6_43709x1	protocol
+R6_42908x1	protocol
+T6_42306x2	routing table
+T6_41711x1	routing table
+T6_34080x1	routing table
+T4_29208x1	routing table
+T4_29134x4	routing table
+R6_42477x2	protocol
+R4_39904x3	protocol
+R4_58239x2	protocol
+bgp6_in_AS44489x1	filter
+R6_15685x1	protocol
+T4_47232x3	routing table
+NIXPEERS4	protocol template
+T6_25234x1	routing table
+R6_24971x1	protocol
+T6_41711x2	routing table
+T4_32934x3	routing table
+T6_22822x1	routing table
+T6_34080x2	routing table
+bgp6_in_AS57463x1	filter
+T6_25512x1	routing table
+R4_39904x4	protocol
+T4_43653x1	routing table
+R6_15685x2	protocol
+T4_47232x4	routing table
+T4_29405x2	routing table
+T6_25234x2	routing table
+R6_49206x1	protocol
+bgp6_in_AS39904x1	filter
+R6_61296x1	protocol
+R6_24971x2	protocol
+T4_44185x2	routing table
+T4_32934x4	routing table
+pp6_as199298x1	protocol
+T6_43037x1	routing table
+T6_25512x2	routing table
+R4_39906x2	protocol
+NIXPEERS6	protocol template
+T4_29504x2	routing table
+bgp6_in_AS39904x2	filter
+pp6_as199657x1	protocol
+T4_43708x2	routing table
+bgp6_in_AS58239x1	filter
+R6_61296x2	protocol
+T6_47110x1	routing table
+pp6_as199298x2	protocol
+R6_50695x1	protocol
+T6_43037x2	routing table
+pp4_as207153x1	protocol
+T6_51800x1	routing table
+R6_33891x1	protocol
+R6_56344x1	protocol
+R4_39817x2	protocol
+filter  	undefined
+T6_15614x2	routing table
+R4_28972x3	protocol
+R6_35592x1	protocol
+T6_25424x1	routing table
+T6_47110x2	routing table
+T4_15935x3	routing table
+T6_31349x1	routing table
+R6_29086x1	protocol
+R4_57279x1	protocol
+R4_28892x2	protocol
+T4_43709x2	routing table
+pp4_as201594x2	protocol
+R6_60890x1	protocol
+T4_42908x2	routing table
+R4_28972x4	protocol
+R6_35592x2	protocol
+T4_49142x1	routing table
+T6_25424x2	routing table
+bgp6_in_AS39906x1	filter
+T6_16246x1	routing table
+R4_49931x2	protocol
+T4_15935x4	routing table
+bgp6_in_AS28972x1	filter
+T4_42477x3	routing table
+R6_28725x1	protocol
+T6_43531x1	routing table
+R6_48451x1	protocol
+R4_46489x3	protocol
+pp6_as197698x1	protocol
+T6_16246x2	routing table
+bgp6_in_AS39817x1	filter
+bgp6_in_AS28972x2	filter
+T4_42477x4	routing table
+T4_65253x1	routing table
+R6_28725x2	protocol
+ipp_ra  	constant
+T4_15685x3	routing table
+T4_49206x2	routing table
+bgp6_in_AS28892x1	filter
+T6_26415x1	routing table
+R4_46489x4	protocol
+T4_24971x3	routing table
+kernel  	undefined
+R4_39790x3	protocol
+T6_25192x1	routing table
+keep    	undefined
+pp4_as205535x2	protocol
+R6_48417x1	protocol
+bgp6_in_AS46489x1	filter
+bgp4_in_AS197013x1	filter
+bgp6_in_AS49931x1	filter
+T6_30764x1	routing table
+T4_15685x4	routing table
+R6_28851x1	protocol
+T6_43541x1	routing table
+R4_48298x3	protocol
+T4_61296x3	routing table
+R6_50698x1	protocol
+T4_24971x4	routing table
+T6_15169x1	routing table
+T4_50695x2	routing table
+R4_39790x4	protocol
+T6_25192x2	routing table
+R6_48417x2	protocol
+T6_35236x1	routing table
+bgp6_in_AS46489x2	filter
+ignore  	undefined
+T4_33891x2	routing table
+T6_30764x2	routing table
+T4_56344x2	routing table
+bgp6_in_AS39790x1	filter
+T6_44522x1	routing table
+T6_51248x1	routing table
+R6_28851x2	protocol
+T6_32590x1	routing table
+T6_43541x2	routing table
+R4_48298x4	protocol
+R4_39791x3	protocol
+T4_61296x4	routing table
+R6_50698x2	protocol
+T6_35361x1	routing table
+T6_25248x1	routing table
+T4_29086x2	routing table
+bgp6_in_AS48298x1	filter
+T6_35236x2	routing table
+bgp6_in_AS39790x2	filter
+T4_60890x2	routing table
+T6_24482x1	routing table
+R4_48298x5	protocol
+R4_39791x4	protocol
+T4_35592x3	routing table
+T6_35613x1	routing table
+R6_36692x1	protocol
+pp4_as204860x2	protocol
+T6_25248x2	routing table
+T6_24806x1	routing table
+bgp6_in_AS48298x2	filter
+bgp6_in_AS39791x1	filter
+T6_36351x1	routing table
+pp6_as201053x1	protocol
+R4_48298x6	protocol
+T4_35592x4	routing table
+T4_48451x2	routing table
+T6_42473x1	routing table
+T6_24806x2	routing table
+bgp6_in_AS39791x2	filter
+T6_16276x1	routing table
+R4_38949x1	protocol
+T6_36351x2	routing table
+T4_28725x3	routing table
+R6_44489x1	protocol
+T6_29134x1	routing table
+T4_34955x1	routing table
+T6_36236x1	routing table
+R6_57463x1	protocol
+T6_42841x1	routing table
+T4_28725x4	routing table
+R4_28978x2	protocol
+T6_29134x2	routing table
+pp4_as204772x2	protocol
+R6_39904x1	protocol
+pp6_as200155x1	protocol
+T6_47232x1	routing table
+ipp_ospf	constant
+R4_47868x2	protocol
+T4_48417x3	routing table
+R4_47949x2	protocol
+ipp_unspec	constant
+T6_32934x1	routing table
+R6_39904x2	protocol
+R6_58239x1	protocol
+T4_28851x3	routing table
+pp6_as200155x2	protocol
+T4_50698x3	routing table
+T6_47232x2	routing table
+T4_48417x4	routing table
+T6_32934x2	routing table
+T4_28851x4	routing table
+T4_50698x4	routing table
+T4_36692x2	routing table
+bgp6_in_AS28978x1	filter
+T6_29405x1	routing table
+pp6_as201163x1	protocol
+T6_44185x1	routing table
+T4_56456x1	routing table
+bgp6_in_AS47868x1	filter
+bgp6_in_AS47949x1	filter
+R6_39906x1	protocol
+id      	undefined
+T6_29504x1	routing table

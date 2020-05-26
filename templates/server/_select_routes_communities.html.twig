@@ -1,0 +1,29 @@
+<select class="selectpicker"
+        name="route-communities"
+        id="select-route-communities"
+        data-width="100%"
+        data-live-search="true"
+        data-selected-text-format="count > 1"
+        data-actions-box="true"
+        multiple>
+    <optgroup label="{{ 'label.community'|trans }}">
+        {% for key, community in bird_known.communities %}
+            <option value="c_({{ key }})"
+                    data-content="{{ key|bgpCommunity }} <span class='badge badge-{{ community.label }}'>{{ community.name }}</span>">{{ community.name }}</option>
+        {% endfor %}
+    </optgroup>
+
+    <optgroup label="{{ 'label.large_community'|trans }}">
+        {% for key, community in bird_known.large_communities %}
+            <option value="lgc_({{ key }})"
+                    data-content="{{ key|bgpLargeCommunity }} <span class='badge badge-{{ community.label }}'>{{ community.name }}</span>">{{ community.name }}</option>
+        {% endfor %}
+    </optgroup>
+
+    <optgroup label="{{ 'label.extended_community'|trans }}">
+        {% for key, community in bird_known.extended_communities %}
+            <option value="ec_({{ key }})"
+                    data-content="{{ key|bgpExtendedCommunity }} <span class='badge badge-{{ community.label }}'>{{ community.name }}</span>">{{ community.name }}</option>
+        {% endfor %}
+    </optgroup>
+</select>

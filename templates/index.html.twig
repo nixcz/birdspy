@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block heading_text %}
+    {{ site.subtitle }}
+{% endblock %}
+
+{% block content %}
+    <div class="row row-cols-1 row-cols-md-3">
+        {% for server in routeServerService.servers %}
+            <div class="col mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ server.name }}</h5>
+
+                        <h6 class="card-subtitle mb-2 text-muted">{{ server.description }}</h6>
+
+                        <p class="card-text">{{ server.message }}</p>
+
+                        <ul class="list-unstyled">
+                            <li>Bird {{ server.version }}</li>
+                            <li>Router ID: {{ server.routerId }}</li>
+                            <li>Uptime: {{ server.uptime|number_format }} days</li>
+                            <li>Last Reconfigure: {{ server.lastReconfiguration|date }}</li>
+                        </ul>
+
+                        <p class="card-text"><small class="text-muted">Status
+                                updated {{ server.createdAt|date }}</small></p>
+
+                        <a href="{{ path('bfd_sessions', {server: server.id}) }}"
+                           class="btn btn-primary my-md-1"
+                           title="{{ 'title.bfd_sessions'|trans }}">{{ 'menu.bfd_sessions'|trans }}</a>
+
+                        <a href="{{ path('bgp_protocols', {server: server.id}) }}"
+                           class="btn btn-primary my-md-1"
+                           title="{{ 'title.bgp_protocols'|trans }}">{{ 'menu.bgp_protocols'|trans }}</a>
+
+                        {#<a href="{{ path('filtered_routes', {server: server.id}) }}"
+                           class="btn btn-primary my-md-1"
+                           title="{{ 'title.filtered_routes'|trans }}">{{ 'menu.filtered_routes'|trans }}</a>#}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

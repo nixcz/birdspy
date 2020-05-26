@@ -1,0 +1,25 @@
+{% extends 'server/base.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('server_routes') }}
+{% endblock %}
+
+{% block heading_text %}
+    {{ heading_text }}
+{% endblock %}
+
+{% block content %}
+    {{ include('server/_table_server_routes.html.twig', {
+        grouped: false,
+        just_invalid: false,
+    }) }}
+    {{ include('server/_modal_filter_server_routes.html.twig', {
+        grouped: false
+    }) }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('server_routes') }}
+{% endblock %}
