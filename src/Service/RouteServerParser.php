@@ -9,7 +9,7 @@ use DateTime;
 class RouteServerParser
 {
 
-    const PATTERN_BIRD = "/^BIRD\s(?:(\w+)\/)?(?:([0-9a-zA-Z\/\-.]+).).*$/";
+    const PATTERN_BIRD = "/^BIRD\s(?:(\w+)\/)?([0-9a-zA-Z\/\-.]+).*$/";
     const PATTERN_ROUTER = "/^Router\sID\sis\s([0-9.]+).*$/";
     const PATTERN_SERVER_TIME = "/^Current\sserver\stime\sis\s([0-9\-]+\s[0-9:]+).*$/";
     const PATTERN_LAST_REBOOT = "/^Last\sreboot\son\s([0-9\-]+\s[0-9:]+).*$/";

@@ -35,7 +35,7 @@ class RouteServerParserTest extends TestCase
                 ],
             ],
             [
-                'BIRD debian/2.0.7-2-x.',
+                'BIRD debian/2.0.7-2-x',
                 [
                     'name'    => 'debian',
                     'version' => '2.0.7-2-x',
