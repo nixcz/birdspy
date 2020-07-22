@@ -43,6 +43,7 @@ class BirdReader implements BirdReaderInterface
 
     public function getCommandOutput(RouteServerData $server, string $cmd)
     {
+        // TODO IF SOCKET EXIST
         $process = new Process(array_merge($this->birdCommand, ['-s', $server->getSocket(), $cmd]));
         $process->setTimeout(180);
         $process->run();

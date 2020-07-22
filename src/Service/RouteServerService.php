@@ -16,7 +16,7 @@ use Symfony\Contracts\Cache\ItemInterface;
 class RouteServerService
 {
 
-    const KEY_SERVER  = 'server-%s';
+    const KEY_SERVER = 'server-%s';
     const KEY_SERVERS = 'servers';
 
     /**
@@ -104,6 +104,7 @@ class RouteServerService
     {
         $createdAt = new DateTime();
 
+        // TODO IF SOCKET EXIST
         $servers = [];
         foreach ($this->parameters->get('bird.servers') as $id => $value) {
             $server = new RouteServerData($id);
