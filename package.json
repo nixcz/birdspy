@@ -12,7 +12,7 @@
         "datatables.net-plugins": "^1.10.20",
         "fibers": "^4.0.2",
         "jquery": "^3.4.1",
-        "jquery-validation": "^1.19.1",
+        "jquery-validation": "^1.19.3",
         "jszip": "^3.2.2",
         "node-sass": "^4.13.0",
         "popper.js": "^1.16.0",
