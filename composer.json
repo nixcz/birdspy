@@ -1,5 +1,6 @@
 {
     "name": "nix/birdspy",
+    "description": "NIX BIRD Web Application",
     "type": "project",
     "license": "MIT",
     "require": {

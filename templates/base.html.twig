@@ -17,7 +17,7 @@
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
     {% endblock %}
-    <link rel="icon" href="{{ asset('build/images/favicon.2ac705da.png') }}">
+    <link rel="icon" href="{{ asset('build/images/favicon.png') }}">
 </head>
 <body class="d-flex flex-column">
 {% block wrapper %}
@@ -27,7 +27,7 @@
                 <a href="{{ path('homepage') }}"
                    class="navbar-brand"
                    title="{{ organization.short_name }}: {{ site.title }}">
-                    <img src="{{ asset('build/images/logo.d4b0bc9e.svg') }}"
+                    <img src="{{ asset('build/images/logo.svg') }}"
                          class="d-inline-block align-top"
                          width="180" alt="{{ organization.short_name }}: {{ site.title }}">
                 </a>

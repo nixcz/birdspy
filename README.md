@@ -1,4 +1,4 @@
-# BirdSpy - Web Application for Querying BIRD Servers
+# BirdSpy – Web Application for Querying BIRD Servers
 
 ## Security
 
@@ -16,13 +16,15 @@ This is a basic [Symfony](https://symfony.com) PHP application and the requireme
 * Mbstring PHP Extension
 * [Redis](https://redis.io) + PHP Extension
 
-For Apache or Nginx, [setup a virtual host](https://symfony.com/doc/current/setup/web_server_configuration.html) to point to the `public/` directory of the project.
+For Apache or Nginx, [setup a virtual host](https://symfony.com/doc/current/setup/web_server_configuration.html) to
+point to the `public/` directory of the project.
 
 Make sure that `var/` directory is writable by `www-data` user or the appropriate web server user.
 
 Create `.env.local` with custom variables (how to and which is described in `.env`).
 
-Configuration files are in `config/packages/` directory (a specially: `app.yaml`, `bird.yaml`, `cache.yaml`). They could be rewritten with environment equivalents in `dev/`, `prod/`, `test/` subdirectories.
+Configuration files are in `config/packages/` directory (a specially: `app.yaml`, `bird.yaml`, `cache.yaml`). They could
+be rewritten with environment equivalents in `dev/`, `prod/`, `test/` subdirectories.
 
 You need to give the `www-data` user permission to run the `birdc` script. Add to `/etc/sudoers`:
 
@@ -30,7 +32,8 @@ You need to give the `www-data` user permission to run the `birdc` script. Add t
 www-data        ALL=(ALL)       NOPASSWD: /project_path/bin/birdc
 ```
 
-The best way to install dependencies is using [Composer](https://getcomposer.org) and [Yarn](https://yarnpkg.com) from `project_path`:
+The best way to install dependencies is using [Composer](https://getcomposer.org) and [Yarn](https://yarnpkg.com)
+from `project_path`:
 
 ```sh
 $ composer install
@@ -100,6 +103,7 @@ MAILTO=""
 ## BIRD Configuration
 
 It's recommended, but not necessary to change time format to match BirdSpy looking glass:
+
 ```
 timeformat base         iso long;
 timeformat log          iso long;
@@ -109,4 +113,4 @@ timeformat route        iso long;
 
 ## License
 
-This application is open-sourced software licensed under the MIT license - see [the license file](LICENSE.md).
+This application is open-sourced software licensed under the MIT license – see [the license file](LICENSE.md).

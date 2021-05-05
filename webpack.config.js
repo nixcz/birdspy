@@ -61,7 +61,8 @@ Encore
     // copying & referencing images
     .copyFiles({
         from: './assets/images',
-        to: 'images/[path][name].[hash:8].[ext]'
+        to: 'images/[path][name].[hash:8].[ext]',
+        pattern: /\.(ico|png|jpg|jpeg|svg)$/,
 
         // optional target path, relative to the output dir
         //to: 'images/[path][name].[ext]',
@@ -80,7 +81,7 @@ Encore
     .enablePostCssLoader()
 
     .enablePostCssLoader((options) => {
-        options.config = {
+        options.postcssOptions = {
             // the directory where the postcss.config.js file is stored
             path: './postcss.config.js'
         };
