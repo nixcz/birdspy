@@ -14,7 +14,7 @@
         "file-loader": "^6.2.0",
         "jquery": "^3.4.1",
         "jquery-validation": "^1.19.3",
-        "jszip": "^3.2.2",
+        "jszip": "^3.7.0",
         "node-sass": "^5.0.0",
         "popper.js": "^1.16.0",
         "postcss-loader": "^5.2.0",
